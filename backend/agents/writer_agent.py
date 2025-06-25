@@ -19,10 +19,14 @@ class WriterAgent(BaseAgent):
     
     def __init__(self, api_key: Optional[str] = None):
         super().__init__("WriterAgent")
+        print(f"✍️ WriterAgent initializing with API key: {'***' + api_key[-4:] if api_key else 'None'}")
+        if not api_key:
+            raise ValueError("API key is required for WriterAgent")
         self.llm = ChatOpenAI(
-            model="gpt-4",
+            model="ep-20250617155129-hfzl9",
             api_key=api_key,
-            temperature=0.7
+            temperature=0.7,
+            base_url="https://ark.cn-beijing.volces.com/api/v3"
         )
     
     async def execute(self, state: AgentState) -> AgentState:

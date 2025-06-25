@@ -20,12 +20,13 @@ uv add <package>               # Add new dependencies
 uv sync                        # Sync dependencies
 ```
 
-### Frontend (React + Vite)
+### Frontend (Next.js + Turbopack)
 ```bash
 cd frontend
-npm run dev                    # Start development server (port 3000)
+npm run dev                    # Start development server with Turbopack (port 3000)
 npm run build                  # Build for production
-npm run preview                # Preview production build
+npm run start                  # Start production server
+npm run lint                   # Run ESLint
 ```
 
 ## Architecture
@@ -55,10 +56,11 @@ The system uses a sequential LangGraph workflow with three main agents:
 - **In-memory Storage**: For demo purposes (extend with database for production)
 
 ### Frontend Structure
-- **React 19** with TypeScript
-- **Vite** for build tooling
-- **Tailwind CSS** for styling
+- **Next.js 15** with React 19 and TypeScript
+- **Turbopack** (Rust-based bundler) for fast development builds
+- **Tailwind CSS v4** for styling
 - **Axios** for API communication
+- **App Router** with server and client components
 - **Responsive Design** with article management interface
 
 ## Key Endpoints
@@ -71,12 +73,13 @@ The system uses a sequential LangGraph workflow with three main agents:
 ## Configuration
 
 ### Environment Variables
-- `OPENAI_API_KEY` - Required for content processing and article generation
-- API key can also be provided via frontend interface
+- `ARK_API_KEY` - Required for content processing and article generation using ARK API
+- ARK API Base URL: `https://ark.cn-beijing.volces.com/api/v3`
+- Model: `ep-20250617155129-hfzl9`
 
 ### Dependencies
 - **Backend**: LangGraph, LangChain, FastAPI, BeautifulSoup4, feedparser
-- **Frontend**: React, TypeScript, Vite, Tailwind CSS, Axios
+- **Frontend**: Next.js, React, TypeScript, Turbopack, Tailwind CSS, Axios
 
 ## Development Notes
 
@@ -85,3 +88,5 @@ The system uses a sequential LangGraph workflow with three main agents:
 - Content is filtered by relevance score to ensure quality
 - Articles are grouped by category before generation
 - System handles failures gracefully with error reporting
+- Next.js uses Turbopack for faster development builds
+- API routes are proxied in development mode via next.config.ts rewrites

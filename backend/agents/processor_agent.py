@@ -21,10 +21,14 @@ class ProcessorAgent(BaseAgent):
     
     def __init__(self, api_key: Optional[str] = None):
         super().__init__("ProcessorAgent")
+        print(f"🔧 ProcessorAgent initializing with API key: {'***' + api_key[-4:] if api_key else 'None'}")
+        if not api_key:
+            raise ValueError("API key is required for ProcessorAgent")
         self.llm = ChatOpenAI(
-            model="gpt-3.5-turbo",
+            model="ep-20250617155129-hfzl9",
             api_key=api_key,
-            temperature=0.1
+            temperature=0.1,
+            base_url="https://ark.cn-beijing.volces.com/api/v3"
         )
         
     async def execute(self, state: AgentState) -> AgentState:

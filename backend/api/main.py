@@ -5,8 +5,12 @@ from typing import Dict, List, Any, Optional
 import asyncio
 import os
 from datetime import datetime
+from dotenv import load_dotenv
 
 from agents import run_content_generation_workflow
+
+# Load environment variables from .env file
+load_dotenv(dotenv_path="../.env")
 
 app = FastAPI(
     title="AI Content Aggregator API",
@@ -28,7 +32,7 @@ workflow_results = {}
 workflow_status = {}
 
 class WorkflowRequest(BaseModel):
-    openai_api_key: Optional[str] = None
+    pass
 
 class WorkflowResponse(BaseModel):
     workflow_id: str
@@ -73,8 +77,7 @@ async def start_workflow(
     # Start workflow in background
     background_tasks.add_task(
         run_workflow_background,
-        workflow_id,
-        request.openai_api_key
+        workflow_id
     )
     
     return WorkflowResponse(
@@ -83,12 +86,15 @@ async def start_workflow(
         message="Workflow started successfully. Use /workflow/status/{workflow_id} to check progress."
     )
 
-async def run_workflow_background(workflow_id: str, api_key: Optional[str]):
+async def run_workflow_background(workflow_id: str):
     """Run workflow in background"""
     try:
-        # Get API key from environment if not provided
+        # Get API key from environment
+        api_key = os.getenv("ARK_API_KEY")
+        print(f"🔑 Using API key: {'***' + api_key[-4:] if api_key else 'None'}")
+        
         if not api_key:
-            api_key = os.getenv("OPENAI_API_KEY")
+            raise ValueError("ARK_API_KEY environment variable not set")
         
         # Run the workflow
         result = await run_content_generation_workflow(openai_api_key=api_key)
