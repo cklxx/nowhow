@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "workflow_id": "42af5b80",
+    "timestamp": "20250626_002948",
+    "created_at": "2025-06-26T00:29:48.655742",
+    "content_type": "crawled_raw"
+  },
+  "content": {
+    "rss_content": [
+      {
+        "title": "Understanding Convolutions on Graphs",
+        "url": "https://distill.pub/2021/understanding-gnns",
+        "summary": "Understanding the building blocks and design choices of graph neural networks.",
+        "published": "Thu, 02 Sep 2021 20:0:0 Z",
+        "source": "https://distill.pub/rss.xml",
+        "type": "rss"
+      },
+      {
+        "title": "A Gentle Introduction to Graph Neural Networks",
+        "url": "https://distill.pub/2021/gnn-intro",
+        "summary": "What components are needed for building learning algorithms that leverage the structure and properties of graphs?",
+        "published": "Thu, 02 Sep 2021 20:0:0 Z",
+        "source": "https://distill.pub/rss.xml",
+        "type": "rss"
+      },
+      {
+        "title": "Distill Hiatus",
+        "url": "https://distill.pub/2021/distill-hiatus",
+        "summary": "After five years, Distill will be taking a break.",
+        "published": "Fri, 02 Jul 2021 20:0:0 Z",
+        "source": "https://distill.pub/rss.xml",
+        "type": "rss"
+      },
+      {
+        "title": "Adversarial Reprogramming of Neural Cellular Automata",
+        "url": "https://distill.pub/selforg/2021/adversarial",
+        "summary": "Reprogramming Neural CA to exhibit novel behaviour, using adversarial attacks.",
+        "published": "Thu, 06 May 2021 20:0:0 Z",
+        "source": "https://distill.pub/rss.xml",
+        "type": "rss"
+      },
+      {
+        "title": "Weight Banding",
+        "url": "https://distill.pub/2020/circuits/weight-banding",
+        "summary": "Weights in the final layer of common visual models appear as horizontal bands. We investigate how and why.",
+        "published": "Thu, 08 Apr 2021 20:0:0 Z",
+        "source": "https://distill.pub/rss.xml",
+        "type": "rss"
+      }
+    ],
+    "web_content": [
+      {
+        "title": "Artificial Intelligence",
+        "url": "https://arxiv.org/list/cs.AI/recent",
+        "content": "Artificial IntelligenceAuthors and titles for recent submissionsWed, 25 Jun 2025Tue, 24 Jun 2025Mon, 23 Jun 2025Thu, 19 Jun 2025Wed, 18 Jun 2025See today'snewchangesTotal of 989 entries :1-5051-100101-150151-200...951-989Showing up to 50 entries per page:fewer|more|allWed, 25 Jun 2025 (showing first 50 of 141 entries )[1]arXiv:2506.19846[pdf,other]Title:JoyAgents-R1: Joint Evolution Dynamics for Versatile Multi-LLM Agents with Reinforcement LearningAi Han,Junxing Hu,Pu Wei,Zhiqian Zhang,Yuhang Guo,Jiawei Lu,Zicheng ZhangComments:33 pages, 7 figures, under reviewSubjects:Artificial Intelligence (cs.AI)[2]arXiv:2506.19843[pdf,other]Title:Temporal-IRL: Modeling Port Congestion and Berth Scheduling with Inverse Reinforcement LearningGuo Li,Zixiang Xu,Wei Zhang,Yikuan Hu,Xinyu Yang,Nikolay Aristov,Mingjie Tang,Elenna R DugundjiComments:TRB2025Subjects:Artificial Intelligence (cs.AI)[3]arXiv:2506.19825[pdf,html,other]Title:Evaluating Compliance with Visualization Guidelines in Diagrams for Scientific Publications Using Large Vision Language ModelsJohannes Rückert,Louise Bloch,Christoph M. FriedrichComments:Accepted at ICDAR 2025Subjects:Artificial Intelligence (cs.AI); Computation and Language (cs.CL)[4]arXiv:2506.19807[pdf,other]Title:KnowRL: Exploring Knowledgeable Reinforcement Learning for FactualityBaochang Ren,Shuofei Qiao,Wenhao Yu,Huajun Chen,Ningyu ZhangComments:Work in progressSubjects:Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG); Multiagent Systems (cs.MA)[5]arXiv:2506.19785[pdf,html,other]Title:Learning Task Belief Similarity with Latent Dynamics for Meta-Reinforcement LearningMenglong Zhang,Fuyuan QianComments:ICLR2025this https URLSubjects:Artificial Intelligence (cs.AI)[6]arXiv:2506.19783[pdf,html,other]Title:SAGE: Strategy-Adaptive Generation Engine for Query RewritingTeng Wang,Hailei Gong,Changwang Zhang,Jun WangSubjects:Artificial Intelligence (cs.AI)[7]arXiv:",
+        "description": "",
+        "source": "https://arxiv.org/list/cs.AI/recent",
+        "type": "webpage"
+      }
+    ],
+    "crawl_timestamp": 366823.278080083,
+    "stats": {
+      "total_expected": 30,
+      "total_actual": 6,
+      "rss_feeds_count": 5,
+      "rss_articles_count": 5,
+      "websites_count": 5,
+      "web_pages_count": 1
+    }
+  }
+}

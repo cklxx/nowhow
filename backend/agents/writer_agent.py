@@ -3,6 +3,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 from pydantic import BaseModel
 from .base_agent import BaseAgent, AgentState
+from utils.file_storage import FileStorage
 
 class GeneratedArticle(BaseModel):
     """Generated article structure"""
@@ -22,6 +23,7 @@ class WriterAgent(BaseAgent):
         print(f"✍️ WriterAgent initializing with API key: {'***' + api_key[-4:] if api_key else 'None'}")
         if not api_key:
             raise ValueError("API key is required for WriterAgent")
+        self.file_storage = FileStorage()
         self.llm = ChatOpenAI(
             model="ep-20250617155129-hfzl9",
             api_key=api_key,
@@ -51,7 +53,14 @@ class WriterAgent(BaseAgent):
                     if article:
                         generated_articles.append(article)
             
-            state.data["generated_articles"] = [article.dict() for article in generated_articles]
+            articles_data = [article.dict() for article in generated_articles]
+            state.data["generated_articles"] = articles_data
+            
+            # Save generated articles to local files
+            workflow_id = state.data.get("workflow_id", "default")
+            saved_path = self.file_storage.save_generated_articles(articles_data, workflow_id)
+            state.data["generated_articles_file"] = saved_path
+            
             state.messages.append(
                 HumanMessage(content=f"Generated {len(generated_articles)} articles from {len(processed_content)} content items")
             )

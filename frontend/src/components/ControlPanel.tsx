@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { WorkflowStatus } from '@/types'
+import CrawlingProgress from './CrawlingProgress'
 
 interface ControlPanelProps {
   onStartWorkflow: () => void
@@ -47,24 +48,32 @@ export default function ControlPanel({
 
       {/* 工作流状态 */}
       {workflowStatus && (
-        <div className="mt-4 p-4 bg-gray-50 rounded-md">
-          <h3 className="font-medium text-gray-900">工作流状态</h3>
-          <p className="text-sm text-gray-600">
-            ID: {workflowStatus.workflow_id}
-          </p>
-          <p className="text-sm text-gray-600">
-            状态: <span className={`font-medium ${
-              workflowStatus.status === 'completed' ? 'text-green-600' :
-              workflowStatus.status === 'failed' ? 'text-red-600' :
-              'text-yellow-600'
-            }`}>{workflowStatus.status}</span>
-          </p>
-          {workflowStatus.results && (
-            <div className="text-sm text-gray-600 mt-2">
-              <p>抓取项目: {workflowStatus.results.crawled_items}</p>
-              <p>处理项目: {workflowStatus.results.processed_items}</p>
-              <p>生成文章: {workflowStatus.results.articles_generated}</p>
-            </div>
+        <div className="mt-6 space-y-4">
+          {/* Basic Status */}
+          <div className="p-4 bg-gray-50 rounded-md">
+            <h3 className="font-medium text-gray-900">工作流状态</h3>
+            <p className="text-sm text-gray-600">
+              ID: {workflowStatus.workflow_id}
+            </p>
+            <p className="text-sm text-gray-600">
+              状态: <span className={`font-medium ${
+                workflowStatus.status === 'completed' ? 'text-green-600' :
+                workflowStatus.status === 'failed' ? 'text-red-600' :
+                'text-yellow-600'
+              }`}>{workflowStatus.status}</span>
+            </p>
+            {workflowStatus.results && (
+              <div className="text-sm text-gray-600 mt-2">
+                <p>抓取项目: {workflowStatus.results.crawled_items}</p>
+                <p>处理项目: {workflowStatus.results.processed_items}</p>
+                <p>生成文章: {workflowStatus.results.articles_generated}</p>
+              </div>
+            )}
+          </div>
+
+          {/* Crawling Progress */}
+          {workflowStatus.progress && (
+            <CrawlingProgress progress={workflowStatus.progress} />
           )}
         </div>
       )}

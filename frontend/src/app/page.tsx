@@ -52,6 +52,13 @@ export default function Home() {
     try {
       const response = await getLatestArticles()
       setArticles(response.articles)
+      
+      // Show a message if articles were loaded from file storage
+      if (response.source === 'file_storage') {
+        console.log('已从文件存储加载文章:', response.message)
+      } else if (response.source === 'none') {
+        console.log('未找到文章:', response.message)
+      }
     } catch (error) {
       console.error('加载文章失败:', error)
     }

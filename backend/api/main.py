@@ -8,6 +8,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 from agents import run_content_generation_workflow
+from utils.file_storage import FileStorage
 
 # Load environment variables from .env file
 load_dotenv(dotenv_path="../.env")
@@ -31,6 +32,9 @@ app.add_middleware(
 workflow_results = {}
 workflow_status = {}
 
+# File storage instance
+file_storage = FileStorage()
+
 class WorkflowRequest(BaseModel):
     pass
 
@@ -46,6 +50,7 @@ class WorkflowResult(BaseModel):
     error: Optional[str] = None
     created_at: datetime
     completed_at: Optional[datetime] = None
+    progress: Optional[Dict[str, Any]] = None
 
 @app.get("/")
 async def root():
@@ -103,12 +108,14 @@ async def run_workflow_background(workflow_id: str):
         workflow_status[workflow_id] = "completed"
         workflow_results[workflow_id].status = "completed"
         workflow_results[workflow_id].results = result
+        workflow_results[workflow_id].progress = result.get("progress", {})
         workflow_results[workflow_id].completed_at = datetime.now()
         
         if "error" in result:
             workflow_status[workflow_id] = "failed"
             workflow_results[workflow_id].status = "failed"
             workflow_results[workflow_id].error = result["error"]
+            workflow_results[workflow_id].progress = result.get("progress", {})
             
     except Exception as e:
         workflow_status[workflow_id] = "failed"
@@ -142,49 +149,87 @@ async def list_workflows():
 
 @app.get("/articles")
 async def get_articles(limit: int = 10):
-    """Get generated articles from latest completed workflow"""
+    """Get generated articles from latest completed workflow or from file storage"""
     
-    # Find latest completed workflow
+    # First try to find latest completed workflow in memory
     completed_workflows = [
         wf for wf in workflow_results.values() 
         if wf.status == "completed" and wf.results
     ]
     
-    if not completed_workflows:
-        return {"articles": [], "message": "No completed workflows found"}
+    if completed_workflows:
+        # Sort by completion time
+        latest_workflow = max(completed_workflows, key=lambda x: x.completed_at or datetime.min)
+        articles = latest_workflow.results.get("articles", [])
+        
+        return {
+            "articles": articles[:limit],
+            "total": len(articles),
+            "workflow_id": latest_workflow.workflow_id,
+            "generated_at": latest_workflow.completed_at,
+            "source": "memory"
+        }
     
-    # Sort by completion time
-    latest_workflow = max(completed_workflows, key=lambda x: x.completed_at or datetime.min)
+    # If no workflows in memory, try to load from file storage
+    try:
+        articles = file_storage.load_generated_articles()
+        if articles:
+            metadata = file_storage.get_latest_articles_metadata()
+            return {
+                "articles": articles[:limit],
+                "total": len(articles),
+                "workflow_id": metadata.get("workflow_id", "unknown") if metadata else "unknown",
+                "generated_at": metadata.get("created_at") if metadata else None,
+                "source": "file_storage",
+                "message": "Loaded from file storage"
+            }
+    except Exception as e:
+        print(f"Error loading articles from file storage: {e}")
     
-    articles = latest_workflow.results.get("articles", [])
-    
+    # If no articles found anywhere
     return {
-        "articles": articles[:limit],
-        "total": len(articles),
-        "workflow_id": latest_workflow.workflow_id,
-        "generated_at": latest_workflow.completed_at
+        "articles": [], 
+        "message": "No articles found. Please run a workflow to generate articles.",
+        "source": "none"
     }
 
 @app.get("/articles/{workflow_id}")
 async def get_articles_by_workflow(workflow_id: str, limit: int = 10):
-    """Get articles from specific workflow"""
+    """Get articles from specific workflow (memory or file storage)"""
     
-    if workflow_id not in workflow_results:
-        raise HTTPException(status_code=404, detail="Workflow not found")
+    # First check memory
+    if workflow_id in workflow_results:
+        workflow = workflow_results[workflow_id]
+        
+        if workflow.status == "completed" and workflow.results:
+            articles = workflow.results.get("articles", [])
+            return {
+                "articles": articles[:limit],
+                "total": len(articles),
+                "workflow_id": workflow_id,
+                "generated_at": workflow.completed_at,
+                "source": "memory"
+            }
+        else:
+            raise HTTPException(status_code=400, detail="Workflow not completed or no results available")
     
-    workflow = workflow_results[workflow_id]
+    # If not in memory, try file storage
+    try:
+        articles = file_storage.load_generated_articles(workflow_id)
+        if articles:
+            return {
+                "articles": articles[:limit],
+                "total": len(articles),
+                "workflow_id": workflow_id,
+                "generated_at": None,  # We don't have this info from file storage easily
+                "source": "file_storage",
+                "message": "Loaded from file storage"
+            }
+    except Exception as e:
+        print(f"Error loading articles for workflow {workflow_id} from file storage: {e}")
     
-    if workflow.status != "completed" or not workflow.results:
-        raise HTTPException(status_code=400, detail="Workflow not completed or no results available")
-    
-    articles = workflow.results.get("articles", [])
-    
-    return {
-        "articles": articles[:limit],
-        "total": len(articles),
-        "workflow_id": workflow_id,
-        "generated_at": workflow.completed_at
-    }
+    # If not found anywhere
+    raise HTTPException(status_code=404, detail="Workflow not found in memory or file storage")
 
 @app.delete("/workflow/{workflow_id}")
 async def delete_workflow(workflow_id: str):
@@ -198,6 +243,30 @@ async def delete_workflow(workflow_id: str):
         del workflow_status[workflow_id]
     
     return {"message": f"Workflow {workflow_id} deleted successfully"}
+
+@app.get("/files/workflows")
+async def list_stored_workflows():
+    """List all stored workflow files"""
+    stored_workflows = file_storage.list_stored_workflows()
+    return {
+        "stored_workflows": stored_workflows,
+        "total": len(stored_workflows)
+    }
+
+@app.get("/files/content/{workflow_id}")
+async def get_stored_content(workflow_id: str):
+    """Get stored content for a specific workflow"""
+    try:
+        crawled_content = file_storage.load_crawled_content(workflow_id)
+        processed_content = file_storage.load_processed_content(workflow_id)
+        
+        return {
+            "workflow_id": workflow_id,
+            "crawled_content": crawled_content,
+            "processed_content": processed_content
+        }
+    except Exception as e:
+        raise HTTPException(status_code=404, detail=f"Content not found for workflow {workflow_id}: {str(e)}")
 
 if __name__ == "__main__":
     import uvicorn

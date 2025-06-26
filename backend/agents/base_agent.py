@@ -9,6 +9,7 @@ class AgentState(BaseModel):
     data: Dict[str, Any] = {}
     current_step: str = ""
     error: Optional[str] = None
+    progress: Dict[str, Any] = {}
     
 class BaseAgent(ABC):
     """Base class for all agents in the system"""

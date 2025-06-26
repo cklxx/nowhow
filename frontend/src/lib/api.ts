@@ -15,7 +15,14 @@ export const getWorkflowStatus = async (workflowId: string): Promise<WorkflowSta
   return response.data
 }
 
-export const getLatestArticles = async (): Promise<{ articles: Article[] }> => {
+export const getLatestArticles = async (): Promise<{ 
+  articles: Article[];
+  total?: number;
+  workflow_id?: string;
+  generated_at?: string;
+  source?: string;
+  message?: string;
+}> => {
   const response = await api.get('/articles')
   return response.data
 }

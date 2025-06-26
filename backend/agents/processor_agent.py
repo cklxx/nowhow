@@ -4,6 +4,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 from pydantic import BaseModel
 from .base_agent import BaseAgent, AgentState
+from utils.file_storage import FileStorage
 
 class StructuredContent(BaseModel):
     """Structured representation of processed content"""
@@ -24,6 +25,7 @@ class ProcessorAgent(BaseAgent):
         print(f"🔧 ProcessorAgent initializing with API key: {'***' + api_key[-4:] if api_key else 'None'}")
         if not api_key:
             raise ValueError("API key is required for ProcessorAgent")
+        self.file_storage = FileStorage()
         self.llm = ChatOpenAI(
             model="ep-20250617155129-hfzl9",
             api_key=api_key,
@@ -55,6 +57,12 @@ class ProcessorAgent(BaseAgent):
             filtered_content = self._filter_and_rank(processed_items)
             
             state.data["processed_content"] = filtered_content
+            
+            # Save processed content to local file
+            workflow_id = state.data.get("workflow_id", "default")
+            saved_path = self.file_storage.save_processed_content(filtered_content, workflow_id)
+            state.data["processed_content_file"] = saved_path
+            
             state.messages.append(
                 HumanMessage(content=f"Processed {len(processed_items)} items, filtered to {len(filtered_content)} relevant items")
             )

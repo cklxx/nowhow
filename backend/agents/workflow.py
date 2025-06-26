@@ -1,3 +1,4 @@
+import uuid
 from typing import Dict, Any
 from langgraph.graph import StateGraph, END
 from .base_agent import AgentState
@@ -83,22 +84,30 @@ class AIContentWorkflow:
         if initial_state is None:
             initial_state = AgentState()
         
-        print("🚀 Starting AI Content Generation Workflow...")
+        # Generate unique workflow ID
+        workflow_id = str(uuid.uuid4())[:8]
+        initial_state.data["workflow_id"] = workflow_id
+        
+        print(f"🚀 Starting AI Content Generation Workflow (ID: {workflow_id})...")
         
         try:
             # Run the workflow
             result = await self.workflow.ainvoke(initial_state)
             
-            if result.error:
-                print(f"❌ Workflow failed: {result.error}")
-                return {"error": result.error}
+            if result.get("error"):
+                print(f"❌ Workflow failed: {result.get('error')}")
+                return {"error": result.get("error"), "progress": result.get("progress", {})}
             
             # Extract results
-            crawled_count = len(result.data.get("crawled_content", {}).get("rss_content", [])) + \
-                          len(result.data.get("crawled_content", {}).get("web_content", []))
+            result_data = result.get("data", {})
+            crawled_count = len(result_data.get("crawled_content", {}).get("rss_content", [])) + \
+                          len(result_data.get("crawled_content", {}).get("web_content", []))
             
-            processed_count = len(result.data.get("processed_content", []))
-            articles_count = len(result.data.get("validated_articles", []))
+            processed_count = len(result_data.get("processed_content", []))
+            articles_count = len(result_data.get("validated_articles", []))
+            
+            # Extract progress from crawler
+            crawler_progress = result_data.get("crawled_content", {}).get("progress", {})
             
             print(f"""
 🎉 Workflow completed successfully!
@@ -110,11 +119,18 @@ class AIContentWorkflow:
             
             return {
                 "success": True,
+                "workflow_id": workflow_id,
                 "crawled_items": crawled_count,
                 "processed_items": processed_count,
                 "articles_generated": articles_count,
-                "articles": result.data.get("validated_articles", []),
-                "processed_content": result.data.get("processed_content", [])
+                "articles": result_data.get("validated_articles", []),
+                "processed_content": result_data.get("processed_content", []),
+                "progress": crawler_progress,
+                "file_paths": {
+                    "crawled_content": result_data.get("crawled_content_file"),
+                    "processed_content": result_data.get("processed_content_file"),
+                    "generated_articles": result_data.get("generated_articles_file")
+                }
             }
             
         except Exception as e:
