@@ -1,0 +1,26 @@
+{
+  "id": "b122be1f-3428-439b-8d79-6c68ce161e5f",
+  "title": "LangGraph Release Week Recap",
+  "content": "See what we released for LangGraph.js and Python over the past few weeks to speed up development workflows and gain more control at every level of your graph.",
+  "url": "https://blog.langchain.com/langgraph-release-week-recap/",
+  "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+  "category": "agent-frameworks",
+  "author": "LangChain",
+  "published_at": "2025-06-09T19:17:29",
+  "created_at": "2025-07-01T16:55:18.572659",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "LangGraph Release Week Recap",
+      "content": "See what we released for LangGraph.js and Python over the past few weeks to speed up development workflows and gain more control at every level of your graph.",
+      "url": "https://blog.langchain.com/langgraph-release-week-recap/",
+      "author": "LangChain",
+      "published": "Mon, 09 Jun 2025 19:17:29 GMT",
+      "category": "agent-frameworks",
+      "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+      "extraction_method": "rss"
+    }
+  }
+}

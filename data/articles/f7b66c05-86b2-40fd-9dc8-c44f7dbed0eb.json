@@ -1,0 +1,26 @@
+{
+  "id": "f7b66c05-86b2-40fd-9dc8-c44f7dbed0eb",
+  "title": "BenchmarkQED: Automated benchmarking of RAG systems",
+  "content": "BenchmarkQED is an open-source toolkit for benchmarking RAG systems using automated query generation, evaluation, and dataset prep. It shows that LazyGraphRAG outperforms standard methods, especially on complex, global queries.\nThe post BenchmarkQED: Automated benchmarking of RAG systems appeared first on Microsoft Research.",
+  "url": "https://www.microsoft.com/en-us/research/blog/benchmarkqed-automated-benchmarking-of-rag-systems/",
+  "source_id": "df4af8cb-b26e-408f-954c-d62e7abfdc9d",
+  "category": "research",
+  "author": "Darren Edge, Ha Trinh, Andres Morales Esquivel, Jonathan Larson",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572907",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "BenchmarkQED: Automated benchmarking of RAG systems",
+      "content": "BenchmarkQED is an open-source toolkit for benchmarking RAG systems using automated query generation, evaluation, and dataset prep. It shows that LazyGraphRAG outperforms standard methods, especially on complex, global queries.\nThe post BenchmarkQED: Automated benchmarking of RAG systems appeared first on Microsoft Research.",
+      "url": "https://www.microsoft.com/en-us/research/blog/benchmarkqed-automated-benchmarking-of-rag-systems/",
+      "author": "Darren Edge, Ha Trinh, Andres Morales Esquivel, Jonathan Larson",
+      "published": "Thu, 05 Jun 2025 16:00:00 +0000",
+      "category": "research",
+      "source_id": "df4af8cb-b26e-408f-954c-d62e7abfdc9d",
+      "extraction_method": "rss"
+    }
+  }
+}

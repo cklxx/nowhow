@@ -1,0 +1,173 @@
+# Main Configuration File
+# This file contains all configuration for models, services, and application settings
+
+# Application Settings
+app:
+  name: "AI Content Aggregator"
+  version: "1.0.0"
+  debug: false
+  log_level: "INFO"
+
+# Server Configuration
+server:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+  workers: 1
+
+# Model Configurations
+models:
+  # ARK API Configuration
+  ark:
+    api_key: "${ARK_API_KEY}"  # Will be replaced by environment variable
+    base_url: "https://ark.cn-beijing.volces.com/api/v3"
+    model: "ep-20250617155129-hfzl9"
+    timeout: 60
+    max_retries: 3
+    retry_delay: 1
+
+  # OpenAI Configuration (alternative model)
+  openai:
+    api_key: "${OPENAI_API_KEY}"
+    model: "gpt-4"
+    timeout: 60
+    max_retries: 3
+    retry_delay: 1
+
+  # Local Model Configuration (future support)
+  local:
+    model_path: "./models/local_model"
+    device: "cpu"
+    max_tokens: 4096
+
+# Agent Configurations
+agents:
+  # Crawler Agent Settings
+  crawler:
+    max_sources: 50
+    timeout: 30
+    user_agent: "AI-Content-Aggregator/1.0"
+    max_retries: 3
+    retry_delay: 2
+    concurrent_requests: 5
+    headers:
+      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      Accept-Language: "en-US,en;q=0.5"
+
+  # Processor Agent Settings  
+  processor:
+    relevance_threshold: 0.6
+    max_content_length: 10000
+    batch_size: 10
+    analysis_timeout: 45
+
+  # Writer Agent Settings
+  writer:
+    min_word_count: 800
+    max_word_count: 1200
+    article_timeout: 120
+    template_style: "professional"
+
+  # Research Agent Settings (ReactAgent)
+  research:
+    max_iterations: 10
+    search_timeout: 30
+    analysis_depth: "detailed"
+    tools:
+      - "web_search"
+      - "content_analyzer"
+      - "fact_checker"
+
+# Service Configurations
+services:
+  # File Storage Service
+  storage:
+    base_path: "./data"
+    create_dirs: true
+    file_patterns:
+      crawled: "crawled_content_{timestamp}_{workflow_id}.json"
+      processed: "processed_content_{timestamp}_{workflow_id}.json"
+      articles: "articles_{timestamp}_{workflow_id}.json"
+
+  # Source Management Service
+  sources:
+    config_file: "./data/sources.json"
+    auto_backup: true
+    validation: true
+    categories:
+      - "AI Research"
+      - "Technology News"
+      - "Machine Learning"
+      - "Deep Learning"
+      - "NLP"
+      - "Computer Vision"
+
+  # AI Analyzer Service
+  analyzer:
+    model_config: "ark"  # Reference to models section
+    cache_enabled: true
+    cache_ttl: 3600  # 1 hour
+
+  # Auth Service
+  auth:
+    mock_enabled: true
+    supported_methods:
+      - "basic"
+      - "bearer_token"
+      - "api_key"
+
+# Database Configuration (for future use)
+database:
+  type: "sqlite"
+  url: "sqlite:///./data/app.db"
+  echo: false
+  pool_size: 5
+  max_overflow: 10
+
+# Logging Configuration
+logging:
+  version: 1
+  disable_existing_loggers: false
+  formatters:
+    default:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    detailed:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(pathname)s:%(lineno)d - %(message)s"
+  handlers:
+    console:
+      class: "logging.StreamHandler"
+      level: "INFO"
+      formatter: "default"
+      stream: "ext://sys.stdout"
+    file:
+      class: "logging.FileHandler"
+      level: "DEBUG"
+      formatter: "detailed"
+      filename: "./logs/app.log"
+  loggers:
+    "":
+      level: "INFO"
+      handlers: ["console", "file"]
+    "agents":
+      level: "DEBUG"
+      handlers: ["console", "file"]
+      propagate: false
+
+# Monitoring and Metrics
+monitoring:
+  enabled: true
+  metrics_endpoint: "/metrics"
+  health_endpoint: "/health"
+  
+# Rate Limiting
+rate_limiting:
+  enabled: true
+  requests_per_minute: 60
+  burst_limit: 10
+
+# CORS Configuration
+cors:
+  allow_origins: ["http://localhost:3000", "http://127.0.0.1:3000", "http://10.0.0.5:3000", "http://localhost:3001", "http://127.0.0.1:3001", "http://10.0.0.5:3001"]
+  allow_credentials: true
+  allow_methods: ["GET", "POST", "PUT", "DELETE"]
+  allow_headers: ["*"]

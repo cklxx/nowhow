@@ -1,0 +1,26 @@
+{
+  "id": "a593b966-d34d-47df-9997-5cb4b5773610",
+  "title": "OpenAI can rehabilitate AI models that develop a \u201cbad-boy persona\u201d",
+  "content": "A new paper from OpenAI has shown why a little bit of bad training can make AI models go rogue\u2014but also demonstrates that this problem is generally pretty easy to fix.\u00a0 Back in February, a group of researchers discovered that fine-tuning an AI model (in their case, OpenAI\u2019s GPT-4o) by training it on code that\u2026",
+  "url": "https://www.technologyreview.com/2025/06/18/1119042/openai-can-rehabilitate-ai-models-that-develop-a-bad-boy-persona/",
+  "source_id": "9a37f416-cb69-4b22-8e47-f7d76f72b9ea",
+  "category": "ai-news",
+  "author": "Peter Hall",
+  "published_at": null,
+  "created_at": "2025-07-01T14:50:18.708248",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "3aa5d9e2-fe9b-4fbe-b06c-e7c5c92ba129",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "OpenAI can rehabilitate AI models that develop a \u201cbad-boy persona\u201d",
+      "content": "A new paper from OpenAI has shown why a little bit of bad training can make AI models go rogue\u2014but also demonstrates that this problem is generally pretty easy to fix.\u00a0 Back in February, a group of researchers discovered that fine-tuning an AI model (in their case, OpenAI\u2019s GPT-4o) by training it on code that\u2026",
+      "url": "https://www.technologyreview.com/2025/06/18/1119042/openai-can-rehabilitate-ai-models-that-develop-a-bad-boy-persona/",
+      "author": "Peter Hall",
+      "published": "Wed, 18 Jun 2025 18:19:15 +0000",
+      "category": "ai-news",
+      "source_id": "9a37f416-cb69-4b22-8e47-f7d76f72b9ea",
+      "extraction_method": "rss"
+    }
+  }
+}

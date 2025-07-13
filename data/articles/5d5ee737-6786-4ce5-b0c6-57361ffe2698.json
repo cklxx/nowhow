@@ -1,0 +1,26 @@
+{
+  "id": "5d5ee737-6786-4ce5-b0c6-57361ffe2698",
+  "title": "It\u2019s a Sign: AI Platform for Teaching American Sign Language Aims to Bridge Communication Gaps",
+  "content": "American Sign Language is the third most prevalent language in the United States \u2014 but there are vastly fewer AI tools developed with ASL data than data representing the country\u2019s most common languages, English and Spanish. NVIDIA, the American Society for Deaf Children and creative agency Hello Monday are helping close this gap with Signs,\t\n\t\tRead Article",
+  "url": "https://blogs.nvidia.com/blog/ai-sign-language/",
+  "source_id": "dac87bdc-5cbc-47b8-9312-2e65c7c6abfe",
+  "category": "industry",
+  "author": "Michael Boone",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572369",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "It\u2019s a Sign: AI Platform for Teaching American Sign Language Aims to Bridge Communication Gaps",
+      "content": "American Sign Language is the third most prevalent language in the United States \u2014 but there are vastly fewer AI tools developed with ASL data than data representing the country\u2019s most common languages, English and Spanish. NVIDIA, the American Society for Deaf Children and creative agency Hello Monday are helping close this gap with Signs,\t\n\t\tRead Article",
+      "url": "https://blogs.nvidia.com/blog/ai-sign-language/",
+      "author": "Michael Boone",
+      "published": "Thu, 20 Feb 2025 14:30:18 +0000",
+      "category": "industry",
+      "source_id": "dac87bdc-5cbc-47b8-9312-2e65c7c6abfe",
+      "extraction_method": "rss"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "1b564b08-f440-4dc5-9519-a5ebbd506616",
+  "title": "Integrated Multimodal Sensing and Communication: Challenges, Technologies, and Architectures",
+  "content": "arXiv:2506.22507v1 Announce Type: cross \nAbstract: The evolution towards 6G networks requires the intelligent integration of communication and sensing capabilities to support diverse and complex applications, such as autonomous driving and immersive services. However, existing integrated sensing and communication (ISAC) systems predominantly rely on single-modal sensors as primary participants, which leads to a limited representation of environmental features and significant performance bottlenecks under the emerging requirements of 6G applications. This limitation motivates a paradigm shift from single-modal to multimodal ISAC. In this article, we first analyze the key challenges in realizing multimodal ISAC, including the fusion of heterogeneous multimodal data, the high communication overhead among distributed sensors, and the design of efficient and scalable system architectures. We then introduce several enabling technologies, such as large AI models, semantic communication, and multi-agent systems, that hold promise for addressing these challenges. To operationalize these technologies, we zoom into three architectural paradigms: fusion-based multimodal ISAC (F-MAC), interaction-based multimodal ISAC (I-MAC), and relay-based multimodal ISAC (R-MAC), each tailored to organize devices and modalities for efficient collaboration in different scenarios. Thereafter, a case study is presented based on the F-MAC scheme, demonstrating that the scheme achieves more comprehensive sensing and improves sensing accuracy by approximately 80% compared to conventional single-modal ISAC systems. Finally, we discuss several open issues to be addressed in the future.",
+  "url": "https://arxiv.org/abs/2506.22507",
+  "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+  "category": "academic-papers",
+  "author": "Yubo Peng, Luping Xiang, Kun Yang, Feibo Jiang, Kezhi Wang, Christos Masouros",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572144",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Integrated Multimodal Sensing and Communication: Challenges, Technologies, and Architectures",
+      "content": "arXiv:2506.22507v1 Announce Type: cross \nAbstract: The evolution towards 6G networks requires the intelligent integration of communication and sensing capabilities to support diverse and complex applications, such as autonomous driving and immersive services. However, existing integrated sensing and communication (ISAC) systems predominantly rely on single-modal sensors as primary participants, which leads to a limited representation of environmental features and significant performance bottlenecks under the emerging requirements of 6G applications. This limitation motivates a paradigm shift from single-modal to multimodal ISAC. In this article, we first analyze the key challenges in realizing multimodal ISAC, including the fusion of heterogeneous multimodal data, the high communication overhead among distributed sensors, and the design of efficient and scalable system architectures. We then introduce several enabling technologies, such as large AI models, semantic communication, and multi-agent systems, that hold promise for addressing these challenges. To operationalize these technologies, we zoom into three architectural paradigms: fusion-based multimodal ISAC (F-MAC), interaction-based multimodal ISAC (I-MAC), and relay-based multimodal ISAC (R-MAC), each tailored to organize devices and modalities for efficient collaboration in different scenarios. Thereafter, a case study is presented based on the F-MAC scheme, demonstrating that the scheme achieves more comprehensive sensing and improves sensing accuracy by approximately 80% compared to conventional single-modal ISAC systems. Finally, we discuss several open issues to be addressed in the future.",
+      "url": "https://arxiv.org/abs/2506.22507",
+      "author": "Yubo Peng, Luping Xiang, Kun Yang, Feibo Jiang, Kezhi Wang, Christos Masouros",
+      "published": "Tue, 01 Jul 2025 00:00:00 -0400",
+      "category": "academic-papers",
+      "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+      "extraction_method": "rss"
+    }
+  }
+}

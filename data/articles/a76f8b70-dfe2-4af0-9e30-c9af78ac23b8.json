@@ -1,0 +1,26 @@
+{
+  "id": "a76f8b70-dfe2-4af0-9e30-c9af78ac23b8",
+  "title": "What is Agentic AI Reflection Pattern?",
+  "content": "Today, in the second article of the series \u201cAgentic AI design patterns,\u201d\u00a0we will discuss the first pattern: The Reflection Pattern. The Reflection Pattern is a powerful approach in AI, particularly for large language models (LLMs), where an iterative process of generation and self-assessment improves the output quality. We can picture it as a course developer [\u2026]\nThe post What is Agentic AI Reflection Pattern? appeared first on Analytics Vidhya.",
+  "url": "https://www.analyticsvidhya.com/blog/2024/10/agentic-ai-reflection-pattern/",
+  "source_id": "ff7da571-a62c-4440-aa8b-458fa8266f0b",
+  "category": "agent-frameworks",
+  "author": "Pankaj Singh",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572707",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "What is Agentic AI Reflection Pattern?",
+      "content": "Today, in the second article of the series \u201cAgentic AI design patterns,\u201d\u00a0we will discuss the first pattern: The Reflection Pattern. The Reflection Pattern is a powerful approach in AI, particularly for large language models (LLMs), where an iterative process of generation and self-assessment improves the output quality. We can picture it as a course developer [\u2026]\nThe post What is Agentic AI Reflection Pattern? appeared first on Analytics Vidhya.",
+      "url": "https://www.analyticsvidhya.com/blog/2024/10/agentic-ai-reflection-pattern/",
+      "author": "Pankaj Singh",
+      "published": "Mon, 14 Oct 2024 10:57:19 +0000",
+      "category": "agent-frameworks",
+      "source_id": "ff7da571-a62c-4440-aa8b-458fa8266f0b",
+      "extraction_method": "rss"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ee11f670-56bf-4c3a-a657-959786634c34",
+  "title": "Build your First CrewAI Agents",
+  "content": "A step-by-step guide to creating collaborative AI agent crews with the CrewAI framework",
+  "url": "https://blog.crewai.com/getting-started-with-crewai-build-your-first-crew/",
+  "source_id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+  "category": "agent-frameworks",
+  "author": "Tony Kipkemboi",
+  "published_at": "2025-05-08T17:53:06",
+  "created_at": "2025-07-01T16:55:18.572523",
+  "quality_score": 0.8999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Build your First CrewAI Agents",
+      "content": "A step-by-step guide to creating collaborative AI agent crews with the CrewAI framework",
+      "url": "https://blog.crewai.com/getting-started-with-crewai-build-your-first-crew/",
+      "author": "Tony Kipkemboi",
+      "published": "Thu, 08 May 2025 17:53:06 GMT",
+      "category": "agent-frameworks",
+      "source_id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+      "extraction_method": "rss"
+    }
+  }
+}

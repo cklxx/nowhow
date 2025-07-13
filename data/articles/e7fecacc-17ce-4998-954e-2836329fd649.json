@@ -1,0 +1,26 @@
+{
+  "id": "e7fecacc-17ce-4998-954e-2836329fd649",
+  "title": "The rise of \"context engineering\"",
+  "content": "Header image from Dex Horthy on Twitter.Context engineering is building dynamic systems to provide the right information and tools in the right format such that the LLM can plausibly accomplish the task.Most of the time when an agent is not performing reliably the underlying cause is that the",
+  "url": "https://blog.langchain.com/the-rise-of-context-engineering/",
+  "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+  "category": "agent-frameworks",
+  "author": "Harrison Chase",
+  "published_at": "2025-06-23T16:56:00",
+  "created_at": "2025-07-01T16:55:18.572610",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "The rise of \"context engineering\"",
+      "content": "Header image from Dex Horthy on Twitter.Context engineering is building dynamic systems to provide the right information and tools in the right format such that the LLM can plausibly accomplish the task.Most of the time when an agent is not performing reliably the underlying cause is that the",
+      "url": "https://blog.langchain.com/the-rise-of-context-engineering/",
+      "author": "Harrison Chase",
+      "published": "Mon, 23 Jun 2025 16:56:00 GMT",
+      "category": "agent-frameworks",
+      "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+      "extraction_method": "rss"
+    }
+  }
+}

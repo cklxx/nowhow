@@ -1,0 +1,26 @@
+{
+  "id": "5da7c8c5-3ba8-44da-8796-80066192c045",
+  "title": "How Exa built a Web Research Multi-Agent System with LangGraph and LangSmith",
+  "content": "See how Exa used LangGraph and LangSmith to build a multi-agent web research system to process research queries",
+  "url": "https://blog.langchain.com/exa/",
+  "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+  "category": "agent-frameworks",
+  "author": "LangChain",
+  "published_at": "2025-07-01T04:29:33",
+  "created_at": "2025-07-01T16:55:18.572585",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "How Exa built a Web Research Multi-Agent System with LangGraph and LangSmith",
+      "content": "See how Exa used LangGraph and LangSmith to build a multi-agent web research system to process research queries",
+      "url": "https://blog.langchain.com/exa/",
+      "author": "LangChain",
+      "published": "Tue, 01 Jul 2025 04:29:33 GMT",
+      "category": "agent-frameworks",
+      "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+      "extraction_method": "rss"
+    }
+  }
+}

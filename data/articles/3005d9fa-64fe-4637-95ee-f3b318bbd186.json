@@ -1,0 +1,28 @@
+{
+  "id": "3005d9fa-64fe-4637-95ee-f3b318bbd186",
+  "title": "Neurosymbolic Feature Extraction for Identifying Forced Labor in Supply Chains",
+  "content": "arXiv:2507.07217v1 Announce Type: new \nAbstract: Supply chain networks are complex systems that are challenging to analyze; this problem is exacerbated when there are illicit activities involved in the supply chain, such as counterfeit parts, forced labor, or human trafficking. While machine learning (ML) can find patterns in complex systems like supply chains, traditional ML techniques require large training data sets. However, illicit supply chains are characterized by very sparse data, and the data that is available is often (purposely) corrupted or unreliable in order to hide the nature of the activities. We need to be able to automatically detect new patterns that correlate with such illegal activity over complex, even temporal data, without requiring large training data sets. We explore neurosymbolic methods for identifying instances of illicit activity in supply chains and compare the effectiveness of manual and automated feature extraction from news articles accurately describing illicit activities uncovered by authorities. We propose a question tree approach for querying a large language model (LLM) to identify and quantify the relevance of articles. This enables a systematic evaluation of the differences between human and machine classification of news articles related to forced labor in supply chains.",
+  "url": "https://arxiv.org/abs/2507.07217",
+  "source_id": "discovered_-3305257180926427665",
+  "category": "artificial_intelligence",
+  "author": "Zili Wang, Frank Montabon, Kristin Yvonne Rozier",
+  "published_at": null,
+  "created_at": "2025-07-11T23:37:36.749698",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "6257f28b-72a1-4e50-a95f-fcf8755dcef0",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Neurosymbolic Feature Extraction for Identifying Forced Labor in Supply Chains",
+      "content": "arXiv:2507.07217v1 Announce Type: new \nAbstract: Supply chain networks are complex systems that are challenging to analyze; this problem is exacerbated when there are illicit activities involved in the supply chain, such as counterfeit parts, forced labor, or human trafficking. While machine learning (ML) can find patterns in complex systems like supply chains, traditional ML techniques require large training data sets. However, illicit supply chains are characterized by very sparse data, and the data that is available is often (purposely) corrupted or unreliable in order to hide the nature of the activities. We need to be able to automatically detect new patterns that correlate with such illegal activity over complex, even temporal data, without requiring large training data sets. We explore neurosymbolic methods for identifying instances of illicit activity in supply chains and compare the effectiveness of manual and automated feature extraction from news articles accurately describing illicit activities uncovered by authorities. We propose a question tree approach for querying a large language model (LLM) to identify and quantify the relevance of articles. This enables a systematic evaluation of the differences between human and machine classification of news articles related to forced labor in supply chains.",
+      "url": "https://arxiv.org/abs/2507.07217",
+      "author": "Zili Wang, Frank Montabon, Kristin Yvonne Rozier",
+      "published": "Fri, 11 Jul 2025 00:00:00 -0400",
+      "category": "\u4eba\u5de5\u667a\u80fd",
+      "source_id": "discovered_-3305257180926427665",
+      "extraction_method": "rss"
+    },
+    "topic": "\u4eba\u5de5\u667a\u80fd",
+    "topic_relevance": 0.5
+  }
+}

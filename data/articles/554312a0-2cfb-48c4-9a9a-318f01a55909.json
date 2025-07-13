@@ -1,0 +1,26 @@
+{
+  "id": "554312a0-2cfb-48c4-9a9a-318f01a55909",
+  "title": "Introducing OpenAI for Government",
+  "content": "We\u2019re launching OpenAI for Government, a new initiative focused on bringing our most advanced AI tools to public servants across the United States. We're supporting the U.S. government's efforts in adopting best-in-class technology and deploying these tools in service of the public good.",
+  "url": "https://openai.com/global-affairs/introducing-openai-for-government",
+  "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+  "category": "ai-news",
+  "author": "",
+  "published_at": "2025-06-16T00:00:00",
+  "created_at": "2025-07-01T16:55:18.573430",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Introducing OpenAI for Government",
+      "content": "We\u2019re launching OpenAI for Government, a new initiative focused on bringing our most advanced AI tools to public servants across the United States. We're supporting the U.S. government's efforts in adopting best-in-class technology and deploying these tools in service of the public good.",
+      "url": "https://openai.com/global-affairs/introducing-openai-for-government",
+      "author": "",
+      "published": "Mon, 16 Jun 2025 00:00:00 GMT",
+      "category": "ai-news",
+      "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+      "extraction_method": "rss"
+    }
+  }
+}

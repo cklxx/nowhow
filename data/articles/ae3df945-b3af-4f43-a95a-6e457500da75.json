@@ -1,0 +1,26 @@
+{
+  "id": "ae3df945-b3af-4f43-a95a-6e457500da75",
+  "title": "From Model Design to Organizational Design: Complexity Redistribution and Trade-Offs in Generative AI",
+  "content": "arXiv:2506.22440v1 Announce Type: cross \nAbstract: This paper introduces the Generality-Accuracy-Simplicity (GAS) framework to analyze how large language models (LLMs) are reshaping organizations and competitive strategy. We argue that viewing AI as a simple reduction in input costs overlooks two critical dynamics: (a) the inherent trade-offs among generality, accuracy, and simplicity, and (b) the redistribution of complexity across stakeholders. While LLMs appear to defy the traditional trade-off by offering high generality and accuracy through simple interfaces, this user-facing simplicity masks a significant shift of complexity to infrastructure, compliance, and specialized personnel. The GAS trade-off, therefore, does not disappear but is relocated from the user to the organization, creating new managerial challenges, particularly around accuracy in high-stakes applications. We contend that competitive advantage no longer stems from mere AI adoption, but from mastering this redistributed complexity through the design of abstraction layers, workflow alignment, and complementary expertise. This study advances AI strategy by clarifying how scalable cognition relocates complexity and redefines the conditions for technology integration.",
+  "url": "https://arxiv.org/abs/2506.22440",
+  "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+  "category": "academic-papers",
+  "author": "Sharique Hasan, Alexander Oettl, Sampsa Samila",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572119",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "From Model Design to Organizational Design: Complexity Redistribution and Trade-Offs in Generative AI",
+      "content": "arXiv:2506.22440v1 Announce Type: cross \nAbstract: This paper introduces the Generality-Accuracy-Simplicity (GAS) framework to analyze how large language models (LLMs) are reshaping organizations and competitive strategy. We argue that viewing AI as a simple reduction in input costs overlooks two critical dynamics: (a) the inherent trade-offs among generality, accuracy, and simplicity, and (b) the redistribution of complexity across stakeholders. While LLMs appear to defy the traditional trade-off by offering high generality and accuracy through simple interfaces, this user-facing simplicity masks a significant shift of complexity to infrastructure, compliance, and specialized personnel. The GAS trade-off, therefore, does not disappear but is relocated from the user to the organization, creating new managerial challenges, particularly around accuracy in high-stakes applications. We contend that competitive advantage no longer stems from mere AI adoption, but from mastering this redistributed complexity through the design of abstraction layers, workflow alignment, and complementary expertise. This study advances AI strategy by clarifying how scalable cognition relocates complexity and redefines the conditions for technology integration.",
+      "url": "https://arxiv.org/abs/2506.22440",
+      "author": "Sharique Hasan, Alexander Oettl, Sampsa Samila",
+      "published": "Tue, 01 Jul 2025 00:00:00 -0400",
+      "category": "academic-papers",
+      "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+      "extraction_method": "rss"
+    }
+  }
+}

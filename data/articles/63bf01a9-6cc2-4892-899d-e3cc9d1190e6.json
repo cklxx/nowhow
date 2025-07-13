@@ -1,0 +1,26 @@
+{
+  "id": "63bf01a9-6cc2-4892-899d-e3cc9d1190e6",
+  "title": "CrewAI Integration With NVIDIA AI For Production-Grade AI Agents",
+  "content": "The integration of CrewAI with NVIDIA AI Enterprise and the NIM microservices marks a leap forward in the development of production AI agents",
+  "url": "https://blog.crewai.com/crewai-nvidia/",
+  "source_id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+  "category": "agent-frameworks",
+  "author": "Jo\u00e3o (Joe) Moura",
+  "published_at": "2025-01-07T13:32:26",
+  "created_at": "2025-07-01T16:55:18.572573",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "CrewAI Integration With NVIDIA AI For Production-Grade AI Agents",
+      "content": "The integration of CrewAI with NVIDIA AI Enterprise and the NIM microservices marks a leap forward in the development of production AI agents",
+      "url": "https://blog.crewai.com/crewai-nvidia/",
+      "author": "Jo\u00e3o (Joe) Moura",
+      "published": "Tue, 07 Jan 2025 13:32:26 GMT",
+      "category": "agent-frameworks",
+      "source_id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+      "extraction_method": "rss"
+    }
+  }
+}

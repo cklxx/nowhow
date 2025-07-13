@@ -1,0 +1,290 @@
+{
+  "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e": {
+    "id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+    "name": "OpenAI News",
+    "url": "https://openai.com/news/rss.xml",
+    "type": "rss",
+    "category": "ai-news",
+    "active": true,
+    "created_at": "2025-06-30T17:22:28.319952",
+    "metadata": {}
+  },
+  "559b8284-028e-4959-a6f8-831ae277c7aa": {
+    "id": "559b8284-028e-4959-a6f8-831ae277c7aa",
+    "name": "Machine Learning Mastery",
+    "url": "https://machinelearningmastery.com/feed/",
+    "type": "rss",
+    "category": "ml-tutorials",
+    "active": true,
+    "created_at": "2025-06-30T17:22:43.589298",
+    "metadata": {}
+  },
+  "880e661b-24ee-46bd-83c1-911f24b3e2e1": {
+    "id": "880e661b-24ee-46bd-83c1-911f24b3e2e1",
+    "name": "Towards Data Science",
+    "url": "https://towardsdatascience.com/feed",
+    "type": "rss",
+    "category": "data-science",
+    "active": true,
+    "created_at": "2025-06-30T17:23:15.836525",
+    "metadata": {}
+  },
+  "9a37f416-cb69-4b22-8e47-f7d76f72b9ea": {
+    "id": "9a37f416-cb69-4b22-8e47-f7d76f72b9ea",
+    "name": "MIT Technology Review AI",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "type": "rss",
+    "category": "ai-news",
+    "active": true,
+    "created_at": "2025-06-30T17:23:18.101118",
+    "metadata": {}
+  },
+  "23d38ebf-3969-44df-9198-75e7ac662e7a": {
+    "id": "23d38ebf-3969-44df-9198-75e7ac662e7a",
+    "name": "Google Research Blog",
+    "url": "https://research.google/blog/rss",
+    "type": "rss",
+    "category": "research",
+    "active": true,
+    "created_at": "2025-06-30T17:24:02.215735",
+    "metadata": {}
+  },
+  "30f3852d-bd71-4947-8241-d48bd8ff9266": {
+    "id": "30f3852d-bd71-4947-8241-d48bd8ff9266",
+    "name": "DeepMind Blog",
+    "url": "https://deepmind.google/discover/blog/rss.xml",
+    "type": "rss",
+    "category": "research",
+    "active": true,
+    "created_at": "2025-06-30T17:24:05.063756",
+    "metadata": {}
+  },
+  "d5e96343-7633-4776-bcbd-885aa5237ed9": {
+    "id": "d5e96343-7633-4776-bcbd-885aa5237ed9",
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/rss.xml",
+    "type": "rss",
+    "category": "open-source",
+    "active": true,
+    "created_at": "2025-06-30T17:24:07.248629",
+    "metadata": {}
+  },
+  "4acfd9e8-0a84-40f8-9620-f9abb5ebc7f0": {
+    "id": "4acfd9e8-0a84-40f8-9620-f9abb5ebc7f0",
+    "name": "Papers With Code",
+    "url": "https://paperswithcode.com/feeds/all.rss",
+    "type": "rss",
+    "category": "research",
+    "active": true,
+    "created_at": "2025-06-30T17:24:19.969332",
+    "metadata": {}
+  },
+  "27ede92a-daa0-484e-bf57-121503b8a7fd": {
+    "id": "27ede92a-daa0-484e-bf57-121503b8a7fd",
+    "name": "Anthropic News",
+    "url": "https://www.anthropic.com/news/rss",
+    "type": "rss",
+    "category": "ai-news",
+    "active": true,
+    "created_at": "2025-06-30T17:24:21.778775",
+    "metadata": {}
+  },
+  "038d31d6-2e17-4a9c-b561-b53734aa9ff8": {
+    "id": "038d31d6-2e17-4a9c-b561-b53734aa9ff8",
+    "name": "Berkeley BAIR Blog",
+    "url": "https://bair.berkeley.edu/blog/feed.xml",
+    "type": "rss",
+    "category": "research",
+    "active": true,
+    "created_at": "2025-07-01T14:54:26.457265",
+    "metadata": {}
+  },
+  "86001ad5-e757-4d04-825c-d6a799244850": {
+    "id": "86001ad5-e757-4d04-825c-d6a799244850",
+    "name": "Stanford AI Lab Blog",
+    "url": "http://ai.stanford.edu/blog/feed/",
+    "type": "rss",
+    "category": "research",
+    "active": true,
+    "created_at": "2025-07-01T14:55:00.746230",
+    "metadata": {}
+  },
+  "f812add0-ab02-4486-8e00-4f0062d6df48": {
+    "id": "f812add0-ab02-4486-8e00-4f0062d6df48",
+    "name": "Stanford HAI News",
+    "url": "https://hai.stanford.edu/news/rss.xml",
+    "type": "rss",
+    "category": "research",
+    "active": true,
+    "created_at": "2025-07-01T14:55:08.750458",
+    "metadata": {}
+  },
+  "df4af8cb-b26e-408f-954c-d62e7abfdc9d": {
+    "id": "df4af8cb-b26e-408f-954c-d62e7abfdc9d",
+    "name": "Microsoft Research Blog",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "type": "rss",
+    "category": "research",
+    "active": true,
+    "created_at": "2025-07-01T14:55:28.444110",
+    "metadata": {}
+  },
+  "ff7da571-a62c-4440-aa8b-458fa8266f0b": {
+    "id": "ff7da571-a62c-4440-aa8b-458fa8266f0b",
+    "name": "AI Agent Frameworks Hub",
+    "url": "https://www.analyticsvidhya.com/blog/tag/ai-agents/feed/",
+    "type": "rss",
+    "category": "agent-frameworks",
+    "active": true,
+    "created_at": "2025-07-01T14:56:01.843893",
+    "metadata": {}
+  },
+  "30dff848-3cd4-4964-923e-5d27f167093b": {
+    "id": "30dff848-3cd4-4964-923e-5d27f167093b",
+    "name": "LangChain Blog",
+    "url": "https://blog.langchain.dev/rss/",
+    "type": "rss",
+    "category": "agent-frameworks",
+    "active": true,
+    "created_at": "2025-07-01T14:56:37.867763",
+    "metadata": {}
+  },
+  "457cc12f-b67b-4ce8-8099-8c3284de63ca": {
+    "id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+    "name": "CrewAI Blog",
+    "url": "https://blog.crewai.com/rss/",
+    "type": "rss",
+    "category": "agent-frameworks",
+    "active": true,
+    "created_at": "2025-07-01T14:58:02.999028",
+    "metadata": {}
+  },
+  "dac87bdc-5cbc-47b8-9312-2e65c7c6abfe": {
+    "id": "dac87bdc-5cbc-47b8-9312-2e65c7c6abfe",
+    "name": "NVIDIA AI Blog",
+    "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/",
+    "type": "rss",
+    "category": "industry",
+    "active": true,
+    "created_at": "2025-07-01T14:58:38.099400",
+    "metadata": {}
+  },
+  "db8424c1-9e55-4079-a619-3364bc8e9087": {
+    "id": "db8424c1-9e55-4079-a619-3364bc8e9087",
+    "name": "\u673a\u5668\u4e4b\u5fc3",
+    "url": "https://www.jiqizhixin.com/rss",
+    "type": "rss",
+    "category": "chinese-ai-news",
+    "active": true,
+    "created_at": "2025-07-01T14:58:42.399230",
+    "metadata": {}
+  },
+  "014222ee-da63-44bf-b685-c3232e8d3e1f": {
+    "id": "014222ee-da63-44bf-b685-c3232e8d3e1f",
+    "name": "\u91cf\u5b50\u4f4d",
+    "url": "https://www.qbitai.com/feed",
+    "type": "rss",
+    "category": "chinese-ai-news",
+    "active": true,
+    "created_at": "2025-07-01T14:59:16.597079",
+    "metadata": {}
+  },
+  "2d933ad6-e516-4e6e-a61f-d55c5419d659": {
+    "id": "2d933ad6-e516-4e6e-a61f-d55c5419d659",
+    "name": "AI\u79d1\u6280\u8bc4\u8bba",
+    "url": "https://www.leiphone.com/category/ai/feed",
+    "type": "rss",
+    "category": "chinese-ai-news",
+    "active": true,
+    "created_at": "2025-07-01T14:59:21.567892",
+    "metadata": {}
+  },
+  "d19b3ea1-303c-4c78-ad80-bcacfe71529f": {
+    "id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+    "name": "Arxiv AI Agents",
+    "url": "https://arxiv.org/rss/cs.MA",
+    "type": "rss",
+    "category": "academic-papers",
+    "active": true,
+    "created_at": "2025-07-01T14:59:55.078179",
+    "metadata": {}
+  },
+  "8f27e774-2eaa-4bfb-b789-9e8171eee511": {
+    "id": "8f27e774-2eaa-4bfb-b789-9e8171eee511",
+    "name": "VentureBeat AI",
+    "url": "https://venturebeat.com/ai/feed/",
+    "type": "rss",
+    "category": "industry-news",
+    "active": true,
+    "created_at": "2025-07-01T15:00:27.364351",
+    "metadata": {}
+  },
+  "discovered_-3305257180926427665": {
+    "id": "discovered_-3305257180926427665",
+    "name": "ArXiv\u4eba\u5de5\u667a\u80fd\u8bba\u6587",
+    "url": "https://arxiv.org/rss/cs.AI",
+    "type": "rss",
+    "category": "\u4eba\u5de5\u667a\u80fd",
+    "active": true,
+    "created_at": "2025-07-11T23:37:08.696764",
+    "metadata": {
+      "discovered": true,
+      "relevance_score": 1.0,
+      "description": "\u6700\u65b0AI\u7814\u7a76\u8bba\u6587",
+      "content_type": "article",
+      "discovery_method": "intelligent_search",
+      "discovered_for_topic": "\u4eba\u5de5\u667a\u80fd"
+    }
+  },
+  "discovered_-8387056951411535902": {
+    "id": "discovered_-8387056951411535902",
+    "name": "Google AI\u535a\u5ba2",
+    "url": "https://ai.googleblog.com/feeds/posts/default",
+    "type": "rss",
+    "category": "\u4eba\u5de5\u667a\u80fd",
+    "active": true,
+    "created_at": "2025-07-11T23:37:08.703733",
+    "metadata": {
+      "discovered": true,
+      "relevance_score": 1.0,
+      "description": "Google AI\u7814\u7a76\u8fdb\u5c55",
+      "content_type": "article",
+      "discovery_method": "intelligent_search",
+      "discovered_for_topic": "\u4eba\u5de5\u667a\u80fd"
+    }
+  },
+  "discovered_8046433078169985874": {
+    "id": "discovered_8046433078169985874",
+    "name": "Microsoft AI\u535a\u5ba2",
+    "url": "https://blogs.microsoft.com/ai/feed/",
+    "type": "rss",
+    "category": "\u4eba\u5de5\u667a\u80fd",
+    "active": true,
+    "created_at": "2025-07-11T23:37:08.704298",
+    "metadata": {
+      "discovered": true,
+      "relevance_score": 1.0,
+      "description": "\u5fae\u8f6fAI\u6280\u672f\u548c\u5e94\u7528",
+      "content_type": "article",
+      "discovery_method": "intelligent_search",
+      "discovered_for_topic": "\u4eba\u5de5\u667a\u80fd"
+    }
+  },
+  "discovered_-861149219524619146": {
+    "id": "discovered_-861149219524619146",
+    "name": "DeepMind\u535a\u5ba2",
+    "url": "https://deepmind.com/blog/feed/basic/",
+    "type": "rss",
+    "category": "\u4eba\u5de5\u667a\u80fd",
+    "active": true,
+    "created_at": "2025-07-11T23:37:08.704737",
+    "metadata": {
+      "discovered": true,
+      "relevance_score": 1.0,
+      "description": "DeepMind\u7814\u7a76\u7a81\u7834",
+      "content_type": "article",
+      "discovery_method": "intelligent_search",
+      "discovered_for_topic": "\u4eba\u5de5\u667a\u80fd"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "62a7fec7-9199-41e4-92ee-9f64228f85c8",
+  "title": "A Caching Strategy for Identifying Bottlenecks on the Data Input Pipeline",
+  "content": "PyTorch model performance analysis and optimization \u2014 Part 8\nThe post A Caching Strategy for Identifying Bottlenecks on the Data Input Pipeline appeared first on Towards Data Science.",
+  "url": "https://towardsdatascience.com/a-caching-strategy-for-identifying-bottlenecks-on-the-data-input-pipeline/",
+  "source_id": "880e661b-24ee-46bd-83c1-911f24b3e2e1",
+  "category": "data-science",
+  "author": "Chaim Rand",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.573224",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "A Caching Strategy for Identifying Bottlenecks on the Data Input Pipeline",
+      "content": "PyTorch model performance analysis and optimization \u2014 Part 8\nThe post A Caching Strategy for Identifying Bottlenecks on the Data Input Pipeline appeared first on Towards Data Science.",
+      "url": "https://towardsdatascience.com/a-caching-strategy-for-identifying-bottlenecks-on-the-data-input-pipeline/",
+      "author": "Chaim Rand",
+      "published": "Thu, 26 Jun 2025 18:37:50 +0000",
+      "category": "data-science",
+      "source_id": "880e661b-24ee-46bd-83c1-911f24b3e2e1",
+      "extraction_method": "rss"
+    }
+  }
+}

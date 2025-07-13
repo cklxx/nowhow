@@ -250,25 +250,41 @@ class FileStorage:
         if not files:
             return None
             
-        # Get the most recent file
-        latest_file = max(files, key=os.path.getctime)
+        # First try to find files with actual articles content
+        for filepath in sorted(files, key=os.path.getctime, reverse=True):
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    articles = data.get("articles", [])
+                    if articles:  # Return the first file with actual content
+                        return articles
+            except Exception as e:
+                print(f"Error reading {filepath}: {e}")
+                continue
         
-        with open(latest_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            return data.get("articles", [])
+        # If no files with content found, return empty list
+        return []
     
     def get_latest_articles_metadata(self) -> Optional[Dict[str, Any]]:
-        """Get metadata of the latest generated articles"""
+        """Get metadata of the latest generated articles with content"""
         files = list(self.articles_path.glob("articles_*.json"))
         if not files:
             return None
             
-        # Get the most recent file
-        latest_file = max(files, key=os.path.getctime)
+        # First try to find files with actual articles content
+        for filepath in sorted(files, key=os.path.getctime, reverse=True):
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    articles = data.get("articles", [])
+                    if articles:  # Return metadata for the first file with actual content
+                        metadata = data.get("metadata", {})
+                        metadata["article_count"] = len(articles)
+                        metadata["filepath"] = str(filepath)
+                        return metadata
+            except Exception as e:
+                print(f"Error reading {filepath}: {e}")
+                continue
         
-        with open(latest_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            metadata = data.get("metadata", {})
-            metadata["article_count"] = len(data.get("articles", []))
-            metadata["filepath"] = str(latest_file)
-            return metadata
+        # If no files with content found, return None
+        return None

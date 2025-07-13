@@ -1,0 +1,26 @@
+{
+  "id": "f1ed4feb-a9af-4283-b212-399fc2098d04",
+  "title": "Why do I need LangGraph Platform for agent deployment?",
+  "content": "This blog dives into technical details for why agent deployment is difficult, and how we built a platform to solve those challenges (LangGraph Platform).",
+  "url": "https://blog.langchain.com/why-langgraph-platform/",
+  "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+  "category": "agent-frameworks",
+  "author": "LangChain",
+  "published_at": "2025-05-22T15:33:45",
+  "created_at": "2025-07-01T16:55:18.572671",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Why do I need LangGraph Platform for agent deployment?",
+      "content": "This blog dives into technical details for why agent deployment is difficult, and how we built a platform to solve those challenges (LangGraph Platform).",
+      "url": "https://blog.langchain.com/why-langgraph-platform/",
+      "author": "LangChain",
+      "published": "Thu, 22 May 2025 15:33:45 GMT",
+      "category": "agent-frameworks",
+      "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+      "extraction_method": "rss"
+    }
+  }
+}

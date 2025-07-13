@@ -1,0 +1,26 @@
+{
+  "id": "2edcc7af-7966-441d-8ce0-04782fa894a2",
+  "title": "Toward understanding and preventing misalignment generalization",
+  "content": "We study how training on incorrect responses can cause broader misalignment in language models and identify an internal feature driving this behavior\u2014one that can be reversed with minimal fine-tuning.",
+  "url": "https://openai.com/index/emergent-misalignment",
+  "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+  "category": "ai-news",
+  "author": "",
+  "published_at": "2025-06-18T10:00:00",
+  "created_at": "2025-07-01T14:50:18.708600",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "3aa5d9e2-fe9b-4fbe-b06c-e7c5c92ba129",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Toward understanding and preventing misalignment generalization",
+      "content": "We study how training on incorrect responses can cause broader misalignment in language models and identify an internal feature driving this behavior\u2014one that can be reversed with minimal fine-tuning.",
+      "url": "https://openai.com/index/emergent-misalignment",
+      "author": "",
+      "published": "Wed, 18 Jun 2025 10:00:00 GMT",
+      "category": "ai-news",
+      "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+      "extraction_method": "rss"
+    }
+  }
+}

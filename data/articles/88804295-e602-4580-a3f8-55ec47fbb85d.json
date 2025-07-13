@@ -1,0 +1,28 @@
+{
+  "id": "88804295-e602-4580-a3f8-55ec47fbb85d",
+  "title": "ViDove: A Translation Agent System with Multimodal Context and Memory-Augmented Reasoning",
+  "content": "arXiv:2507.07306v1 Announce Type: new \nAbstract: LLM-based translation agents have achieved highly human-like translation results and are capable of handling longer and more complex contexts with greater efficiency. However, they are typically limited to text-only inputs. In this paper, we introduce ViDove, a translation agent system designed for multimodal input. Inspired by the workflow of human translators, ViDove leverages visual and contextual background information to enhance the translation process. Additionally, we integrate a multimodal memory system and long-short term memory modules enriched with domain-specific knowledge, enabling the agent to perform more accurately and adaptively in real-world scenarios. As a result, ViDove achieves significantly higher translation quality in both subtitle generation and general translation tasks, with a 28% improvement in BLEU scores and a 15% improvement in SubER compared to previous state-of-the-art baselines. Moreover, we introduce DoveBench, a new benchmark for long-form automatic video subtitling and translation, featuring 17 hours of high-quality, human-annotated data. Our code is available here: https://github.com/pigeonai-org/ViDove",
+  "url": "https://arxiv.org/abs/2507.07306",
+  "source_id": "discovered_-3305257180926427665",
+  "category": "artificial_intelligence",
+  "author": "Yichen Lu, Wei Dai, Jiaen Liu, Ching Wing Kwok, Zongheng Wu, Xudong Xiao, Ao Sun, Sheng Fu, Jianyuan Zhan, Yian Wang, Takatomo Saito, Sicheng Lai",
+  "published_at": null,
+  "created_at": "2025-07-11T23:37:36.749787",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "6257f28b-72a1-4e50-a95f-fcf8755dcef0",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "ViDove: A Translation Agent System with Multimodal Context and Memory-Augmented Reasoning",
+      "content": "arXiv:2507.07306v1 Announce Type: new \nAbstract: LLM-based translation agents have achieved highly human-like translation results and are capable of handling longer and more complex contexts with greater efficiency. However, they are typically limited to text-only inputs. In this paper, we introduce ViDove, a translation agent system designed for multimodal input. Inspired by the workflow of human translators, ViDove leverages visual and contextual background information to enhance the translation process. Additionally, we integrate a multimodal memory system and long-short term memory modules enriched with domain-specific knowledge, enabling the agent to perform more accurately and adaptively in real-world scenarios. As a result, ViDove achieves significantly higher translation quality in both subtitle generation and general translation tasks, with a 28% improvement in BLEU scores and a 15% improvement in SubER compared to previous state-of-the-art baselines. Moreover, we introduce DoveBench, a new benchmark for long-form automatic video subtitling and translation, featuring 17 hours of high-quality, human-annotated data. Our code is available here: https://github.com/pigeonai-org/ViDove",
+      "url": "https://arxiv.org/abs/2507.07306",
+      "author": "Yichen Lu, Wei Dai, Jiaen Liu, Ching Wing Kwok, Zongheng Wu, Xudong Xiao, Ao Sun, Sheng Fu, Jianyuan Zhan, Yian Wang, Takatomo Saito, Sicheng Lai",
+      "published": "Fri, 11 Jul 2025 00:00:00 -0400",
+      "category": "\u4eba\u5de5\u667a\u80fd",
+      "source_id": "discovered_-3305257180926427665",
+      "extraction_method": "rss"
+    },
+    "topic": "\u4eba\u5de5\u667a\u80fd",
+    "topic_relevance": 0.5
+  }
+}

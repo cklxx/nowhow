@@ -1,0 +1,28 @@
+{
+  "id": "5fee1136-a6e9-46aa-a760-ea1fce6f3e22",
+  "title": "Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery",
+  "content": "arXiv:2507.07257v1 Announce Type: new \nAbstract: We present a multi-agent system for automation of scientific research tasks, cmbagent. The system is formed by about 30 Large Language Model (LLM) agents and implements a Planning & Control strategy to orchestrate the agentic workflow, with no human-in-the-loop at any point. Each agent specializes in a different task (performing retrieval on scientific papers and codebases, writing code, interpreting results, critiquing the output of other agents) and the system is able to execute code locally. We successfully apply cmbagent to carry out a PhD level cosmology task (the measurement of cosmological parameters using supernova data) and evaluate its performance on two benchmark sets, finding superior performance over state-of-the-art LLMs. The source code is available on GitHub, demonstration videos are also available, and the system is deployed on HuggingFace and will be available on the cloud.",
+  "url": "https://arxiv.org/abs/2507.07257",
+  "source_id": "discovered_-3305257180926427665",
+  "category": "artificial_intelligence",
+  "author": "Licong Xu, Milind Sarkar, Anto I. Lonappan, \\'I\\~nigo Zubeldia, Pablo Villanueva-Domingo, Santiago Casas, Christian Fidler, Chetana Amancharla, Ujjwal Tiwari, Adrian Bayer, Chadi Ait Ekiou, Miles Cranmer, Adrian Dimitrov, James Fergusson, Kahaan Gandhi, Sven Krippendorf, Andrew Laverick, Julien Lesgourgues, Antony Lewis, Thomas Meier, Blake Sherwin, Kristen Surrao, Francisco Villaescusa-Navarro, Chi Wang, Xueqing Xu, Boris Bolliet",
+  "published_at": null,
+  "created_at": "2025-07-11T23:37:36.749729",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "6257f28b-72a1-4e50-a95f-fcf8755dcef0",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery",
+      "content": "arXiv:2507.07257v1 Announce Type: new \nAbstract: We present a multi-agent system for automation of scientific research tasks, cmbagent. The system is formed by about 30 Large Language Model (LLM) agents and implements a Planning & Control strategy to orchestrate the agentic workflow, with no human-in-the-loop at any point. Each agent specializes in a different task (performing retrieval on scientific papers and codebases, writing code, interpreting results, critiquing the output of other agents) and the system is able to execute code locally. We successfully apply cmbagent to carry out a PhD level cosmology task (the measurement of cosmological parameters using supernova data) and evaluate its performance on two benchmark sets, finding superior performance over state-of-the-art LLMs. The source code is available on GitHub, demonstration videos are also available, and the system is deployed on HuggingFace and will be available on the cloud.",
+      "url": "https://arxiv.org/abs/2507.07257",
+      "author": "Licong Xu, Milind Sarkar, Anto I. Lonappan, \\'I\\~nigo Zubeldia, Pablo Villanueva-Domingo, Santiago Casas, Christian Fidler, Chetana Amancharla, Ujjwal Tiwari, Adrian Bayer, Chadi Ait Ekiou, Miles Cranmer, Adrian Dimitrov, James Fergusson, Kahaan Gandhi, Sven Krippendorf, Andrew Laverick, Julien Lesgourgues, Antony Lewis, Thomas Meier, Blake Sherwin, Kristen Surrao, Francisco Villaescusa-Navarro, Chi Wang, Xueqing Xu, Boris Bolliet",
+      "published": "Fri, 11 Jul 2025 00:00:00 -0400",
+      "category": "\u4eba\u5de5\u667a\u80fd",
+      "source_id": "discovered_-3305257180926427665",
+      "extraction_method": "rss"
+    },
+    "topic": "\u4eba\u5de5\u667a\u80fd",
+    "topic_relevance": 0.5
+  }
+}

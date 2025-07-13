@@ -1,0 +1,28 @@
+{
+  "id": "0a32cc03-4350-4685-ae89-f2528e2bb143",
+  "title": "State-Inference-Based Prompting for Natural Language Trading with Game NPCs",
+  "content": "arXiv:2507.07203v1 Announce Type: new \nAbstract: Large Language Models enable dynamic game interactions but struggle with rule-governed trading systems. Current implementations suffer from rule violations, such as item hallucinations and calculation errors, that erode player trust. Here, State-Inference-Based Prompting (SIBP) enables reliable trading through autonomous dialogue state inference and context-specific rule adherence. The approach decomposes trading into six states within a unified prompt framework, implementing context-aware item referencing and placeholder-based price calculations. Evaluation across 100 trading dialogues demonstrates >97% state compliance, >95% referencing accuracy, and 99.7% calculation precision. SIBP maintains computational efficiency while outperforming baseline approaches, establishing a practical foundation for trustworthy NPC interactions in commercial games.",
+  "url": "https://arxiv.org/abs/2507.07203",
+  "source_id": "discovered_-3305257180926427665",
+  "category": "artificial_intelligence",
+  "author": "Minkyung Kim, Junsik Kim, Hwidong Bae, Woongcheol Yang, Sangdon Park, Sohee Bae",
+  "published_at": null,
+  "created_at": "2025-07-11T23:37:36.749664",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "6257f28b-72a1-4e50-a95f-fcf8755dcef0",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "State-Inference-Based Prompting for Natural Language Trading with Game NPCs",
+      "content": "arXiv:2507.07203v1 Announce Type: new \nAbstract: Large Language Models enable dynamic game interactions but struggle with rule-governed trading systems. Current implementations suffer from rule violations, such as item hallucinations and calculation errors, that erode player trust. Here, State-Inference-Based Prompting (SIBP) enables reliable trading through autonomous dialogue state inference and context-specific rule adherence. The approach decomposes trading into six states within a unified prompt framework, implementing context-aware item referencing and placeholder-based price calculations. Evaluation across 100 trading dialogues demonstrates >97% state compliance, >95% referencing accuracy, and 99.7% calculation precision. SIBP maintains computational efficiency while outperforming baseline approaches, establishing a practical foundation for trustworthy NPC interactions in commercial games.",
+      "url": "https://arxiv.org/abs/2507.07203",
+      "author": "Minkyung Kim, Junsik Kim, Hwidong Bae, Woongcheol Yang, Sangdon Park, Sohee Bae",
+      "published": "Fri, 11 Jul 2025 00:00:00 -0400",
+      "category": "\u4eba\u5de5\u667a\u80fd",
+      "source_id": "discovered_-3305257180926427665",
+      "extraction_method": "rss"
+    },
+    "topic": "\u4eba\u5de5\u667a\u80fd",
+    "topic_relevance": 0.5
+  }
+}

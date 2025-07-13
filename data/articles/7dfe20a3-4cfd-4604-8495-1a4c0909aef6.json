@@ -1,0 +1,28 @@
+{
+  "id": "7dfe20a3-4cfd-4604-8495-1a4c0909aef6",
+  "title": "Supply Chain Optimization via Generative Simulation and Iterative Decision Policies",
+  "content": "arXiv:2507.07355v1 Announce Type: new \nAbstract: High responsiveness and economic efficiency are critical objectives in supply chain transportation, both of which are influenced by strategic decisions on shipping mode. An integrated framework combining an efficient simulator with an intelligent decision-making algorithm can provide an observable, low-risk environment for transportation strategy design. An ideal simulation-decision framework must (1) generalize effectively across various settings, (2) reflect fine-grained transportation dynamics, (3) integrate historical experience with predictive insights, and (4) maintain tight integration between simulation feedback and policy refinement. We propose Sim-to-Dec framework to satisfy these requirements. Specifically, Sim-to-Dec consists of a generative simulation module, which leverages autoregressive modeling to simulate continuous state changes, reducing dependence on handcrafted domain-specific rules and enhancing robustness against data fluctuations; and a history-future dual-aware decision model, refined iteratively through end-to-end optimization with simulator interactions. Extensive experiments conducted on three real-world datasets demonstrate that Sim-to-Dec significantly improves timely delivery rates and profit.",
+  "url": "https://arxiv.org/abs/2507.07355",
+  "source_id": "discovered_-3305257180926427665",
+  "category": "artificial_intelligence",
+  "author": "Haoyue Bai, Haoyu Wang, Nanxu Gong, Xinyuan Wang, Wangyang Ying, Haifeng Chen, Yanjie Fu",
+  "published_at": null,
+  "created_at": "2025-07-11T23:37:36.749844",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "6257f28b-72a1-4e50-a95f-fcf8755dcef0",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Supply Chain Optimization via Generative Simulation and Iterative Decision Policies",
+      "content": "arXiv:2507.07355v1 Announce Type: new \nAbstract: High responsiveness and economic efficiency are critical objectives in supply chain transportation, both of which are influenced by strategic decisions on shipping mode. An integrated framework combining an efficient simulator with an intelligent decision-making algorithm can provide an observable, low-risk environment for transportation strategy design. An ideal simulation-decision framework must (1) generalize effectively across various settings, (2) reflect fine-grained transportation dynamics, (3) integrate historical experience with predictive insights, and (4) maintain tight integration between simulation feedback and policy refinement. We propose Sim-to-Dec framework to satisfy these requirements. Specifically, Sim-to-Dec consists of a generative simulation module, which leverages autoregressive modeling to simulate continuous state changes, reducing dependence on handcrafted domain-specific rules and enhancing robustness against data fluctuations; and a history-future dual-aware decision model, refined iteratively through end-to-end optimization with simulator interactions. Extensive experiments conducted on three real-world datasets demonstrate that Sim-to-Dec significantly improves timely delivery rates and profit.",
+      "url": "https://arxiv.org/abs/2507.07355",
+      "author": "Haoyue Bai, Haoyu Wang, Nanxu Gong, Xinyuan Wang, Wangyang Ying, Haifeng Chen, Yanjie Fu",
+      "published": "Fri, 11 Jul 2025 00:00:00 -0400",
+      "category": "\u4eba\u5de5\u667a\u80fd",
+      "source_id": "discovered_-3305257180926427665",
+      "extraction_method": "rss"
+    },
+    "topic": "\u4eba\u5de5\u667a\u80fd",
+    "topic_relevance": 0.5
+  }
+}

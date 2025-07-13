@@ -1,0 +1,26 @@
+{
+  "id": "96fea81a-48fa-405a-859c-7884785f8574",
+  "title": "Hierarchical Decentralized Stochastic Control for Cyber-Physical Systems",
+  "content": "arXiv:2506.22971v1 Announce Type: cross \nAbstract: This paper presents a two-timescale hierarchical decentralized architecture for control of Cyber-Physical Systems. The architecture consists of $N$ independent sub-processes, a global controller, and $N$ local controllers, each formulated as a Markov Decision Process (MDP). The global controller, operating at a slower timescale optimizes the infinite-horizon discounted cumulative reward under budget constraints. For the local controllers, operating at a faster timescale, we propose two different optimization frameworks, namely the COpt and FOpt. In the COpt framework, the local controller also optimizes an infinite-horizon MDP, while in the FOpt framework, the local controller optimizes a finite-horizon MDP. The FOpt framework mimics a federal structure, where the local controllers have more autonomy in their decision making. First, the existence of stationary deterministic optimal policies for both these frameworks is established. Then, various relationships between the two frameworks are studied, including a bound on the difference between the two optimal value functions. Additionally, sufficiency conditions are provided such that the two frameworks lead to the same optimal values.",
+  "url": "https://arxiv.org/abs/2506.22971",
+  "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+  "category": "academic-papers",
+  "author": "Kesav Kazam Ramachandran Anantharaman, Rahul Meshram",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572200",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Hierarchical Decentralized Stochastic Control for Cyber-Physical Systems",
+      "content": "arXiv:2506.22971v1 Announce Type: cross \nAbstract: This paper presents a two-timescale hierarchical decentralized architecture for control of Cyber-Physical Systems. The architecture consists of $N$ independent sub-processes, a global controller, and $N$ local controllers, each formulated as a Markov Decision Process (MDP). The global controller, operating at a slower timescale optimizes the infinite-horizon discounted cumulative reward under budget constraints. For the local controllers, operating at a faster timescale, we propose two different optimization frameworks, namely the COpt and FOpt. In the COpt framework, the local controller also optimizes an infinite-horizon MDP, while in the FOpt framework, the local controller optimizes a finite-horizon MDP. The FOpt framework mimics a federal structure, where the local controllers have more autonomy in their decision making. First, the existence of stationary deterministic optimal policies for both these frameworks is established. Then, various relationships between the two frameworks are studied, including a bound on the difference between the two optimal value functions. Additionally, sufficiency conditions are provided such that the two frameworks lead to the same optimal values.",
+      "url": "https://arxiv.org/abs/2506.22971",
+      "author": "Kesav Kazam Ramachandran Anantharaman, Rahul Meshram",
+      "published": "Tue, 01 Jul 2025 00:00:00 -0400",
+      "category": "academic-papers",
+      "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+      "extraction_method": "rss"
+    }
+  }
+}

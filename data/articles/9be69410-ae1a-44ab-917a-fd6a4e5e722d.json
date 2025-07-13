@@ -1,0 +1,26 @@
+{
+  "id": "9be69410-ae1a-44ab-917a-fd6a4e5e722d",
+  "title": "Outbound coordinated vulnerability disclosure policy",
+  "content": "Outbound coordinated vulnerability disclosure policy",
+  "url": "https://openai.com/policies/outbound-coordinated-disclosure-policy",
+  "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+  "category": "ai-news",
+  "author": "",
+  "published_at": "2025-06-09T00:00:00",
+  "created_at": "2025-07-01T16:55:18.573468",
+  "quality_score": 0.8999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Outbound coordinated vulnerability disclosure policy",
+      "content": "Outbound coordinated vulnerability disclosure policy",
+      "url": "https://openai.com/policies/outbound-coordinated-disclosure-policy",
+      "author": "",
+      "published": "Mon, 09 Jun 2025 00:00:00 GMT",
+      "category": "ai-news",
+      "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+      "extraction_method": "rss"
+    }
+  }
+}

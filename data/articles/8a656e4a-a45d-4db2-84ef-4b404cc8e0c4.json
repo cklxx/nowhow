@@ -1,0 +1,28 @@
+{
+  "id": "8a656e4a-a45d-4db2-84ef-4b404cc8e0c4",
+  "title": "BOOST: Out-of-Distribution-Informed Adaptive Sampling for Bias Mitigation in Stylistic Convolutional Neural Networks",
+  "content": "arXiv:2507.07134v1 Announce Type: new \nAbstract: The pervasive issue of bias in AI presents a significant challenge to painting classification, and is getting more serious as these systems become increasingly integrated into tasks like art curation and restoration. Biases, often arising from imbalanced datasets where certain artistic styles dominate, compromise the fairness and accuracy of model predictions, i.e., classifiers are less accurate on rarely seen paintings. While prior research has made strides in improving classification performance, it has largely overlooked the critical need to address these underlying biases, that is, when dealing with out-of-distribution (OOD) data. Our insight highlights the necessity of a more robust approach to bias mitigation in AI models for art classification on biased training data. We propose a novel OOD-informed model bias adaptive sampling method called BOOST (Bias-Oriented OOD Sampling and Tuning). It addresses these challenges by dynamically adjusting temperature scaling and sampling probabilities, thereby promoting a more equitable representation of all classes. We evaluate our proposed approach to the KaoKore and PACS datasets, focusing on the model's ability to reduce class-wise bias. We further propose a new metric, Same-Dataset OOD Detection Score (SODC), designed to assess class-wise separation and per-class bias reduction. Our method demonstrates the ability to balance high performance with fairness, making it a robust solution for unbiasing AI models in the art domain.",
+  "url": "https://arxiv.org/abs/2507.07134",
+  "source_id": "discovered_-3305257180926427665",
+  "category": "artificial_intelligence",
+  "author": "Mridula Vijendran, Shuang Chen, Jingjing Deng, Hubert P. H. Shum",
+  "published_at": null,
+  "created_at": "2025-07-11T23:37:36.749618",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "6257f28b-72a1-4e50-a95f-fcf8755dcef0",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "BOOST: Out-of-Distribution-Informed Adaptive Sampling for Bias Mitigation in Stylistic Convolutional Neural Networks",
+      "content": "arXiv:2507.07134v1 Announce Type: new \nAbstract: The pervasive issue of bias in AI presents a significant challenge to painting classification, and is getting more serious as these systems become increasingly integrated into tasks like art curation and restoration. Biases, often arising from imbalanced datasets where certain artistic styles dominate, compromise the fairness and accuracy of model predictions, i.e., classifiers are less accurate on rarely seen paintings. While prior research has made strides in improving classification performance, it has largely overlooked the critical need to address these underlying biases, that is, when dealing with out-of-distribution (OOD) data. Our insight highlights the necessity of a more robust approach to bias mitigation in AI models for art classification on biased training data. We propose a novel OOD-informed model bias adaptive sampling method called BOOST (Bias-Oriented OOD Sampling and Tuning). It addresses these challenges by dynamically adjusting temperature scaling and sampling probabilities, thereby promoting a more equitable representation of all classes. We evaluate our proposed approach to the KaoKore and PACS datasets, focusing on the model's ability to reduce class-wise bias. We further propose a new metric, Same-Dataset OOD Detection Score (SODC), designed to assess class-wise separation and per-class bias reduction. Our method demonstrates the ability to balance high performance with fairness, making it a robust solution for unbiasing AI models in the art domain.",
+      "url": "https://arxiv.org/abs/2507.07134",
+      "author": "Mridula Vijendran, Shuang Chen, Jingjing Deng, Hubert P. H. Shum",
+      "published": "Fri, 11 Jul 2025 00:00:00 -0400",
+      "category": "\u4eba\u5de5\u667a\u80fd",
+      "source_id": "discovered_-3305257180926427665",
+      "extraction_method": "rss"
+    },
+    "topic": "\u4eba\u5de5\u667a\u80fd",
+    "topic_relevance": 0.5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "b89d5483-7212-48ab-a802-1258769c8025",
+  "title": "Scaling security with responsible disclosure",
+  "content": "OpenAI introduces its Outbound Coordinated Disclosure Policy to guide how it responsibly reports vulnerabilities in third-party software\u2014emphasizing integrity, collaboration, and proactive security at scale.",
+  "url": "https://openai.com/index/scaling-coordinated-vulnerability-disclosure",
+  "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+  "category": "ai-news",
+  "author": "",
+  "published_at": "2025-06-09T10:00:00",
+  "created_at": "2025-07-01T14:50:18.708638",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "3aa5d9e2-fe9b-4fbe-b06c-e7c5c92ba129",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Scaling security with responsible disclosure",
+      "content": "OpenAI introduces its Outbound Coordinated Disclosure Policy to guide how it responsibly reports vulnerabilities in third-party software\u2014emphasizing integrity, collaboration, and proactive security at scale.",
+      "url": "https://openai.com/index/scaling-coordinated-vulnerability-disclosure",
+      "author": "",
+      "published": "Mon, 09 Jun 2025 10:00:00 GMT",
+      "category": "ai-news",
+      "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+      "extraction_method": "rss"
+    }
+  }
+}

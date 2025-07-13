@@ -1,0 +1,26 @@
+{
+  "id": "2260835a-369a-460b-b8d1-0f7c2536ef74",
+  "title": "PadChest-GR: A bilingual grounded radiology reporting benchmark for chest X-rays",
+  "content": "The world\u2019s first multimodal, bilingual radiology dataset could reshape the way radiologists and AI systems make sense of X-rays. PadChest-GR, developed by the University of Alicante with Microsoft Research, has the potential to advance research across the field for years to come.\nThe post PadChest-GR: A bilingual grounded radiology reporting benchmark for chest X-rays appeared first on Microsoft Research.",
+  "url": "https://www.microsoft.com/en-us/research/blog/padchest-gr-a-bilingual-grounded-radiology-reporting-benchmark-for-chest-x-rays/",
+  "source_id": "df4af8cb-b26e-408f-954c-d62e7abfdc9d",
+  "category": "research",
+  "author": "Daniel Coelho de Castro, Javier Alvarez-Valle",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572833",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "PadChest-GR: A bilingual grounded radiology reporting benchmark for chest X-rays",
+      "content": "The world\u2019s first multimodal, bilingual radiology dataset could reshape the way radiologists and AI systems make sense of X-rays. PadChest-GR, developed by the University of Alicante with Microsoft Research, has the potential to advance research across the field for years to come.\nThe post PadChest-GR: A bilingual grounded radiology reporting benchmark for chest X-rays appeared first on Microsoft Research.",
+      "url": "https://www.microsoft.com/en-us/research/blog/padchest-gr-a-bilingual-grounded-radiology-reporting-benchmark-for-chest-x-rays/",
+      "author": "Daniel Coelho de Castro, Javier Alvarez-Valle",
+      "published": "Thu, 26 Jun 2025 16:08:25 +0000",
+      "category": "research",
+      "source_id": "df4af8cb-b26e-408f-954c-d62e7abfdc9d",
+      "extraction_method": "rss"
+    }
+  }
+}

@@ -1,0 +1,303 @@
+# Premium AI news sources configuration - verified for 2024
+# This file contains high-quality, reliable AI news sources with stable RSS feeds
+
+sources:
+  rss_feeds:
+    - id: "google_ai_blog"
+      name: "Google AI Blog" 
+      url: "https://ai.googleblog.com/feeds/posts/default"
+      category: "research"
+      priority: "high"
+      description: "Official Google AI research and developments"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "berkeley_bair"
+      name: "Berkeley AI Research (BAIR)"
+      url: "https://bair.berkeley.edu/blog/feed.xml"
+      category: "research"
+      priority: "high"
+      description: "Berkeley AI Research lab publications"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "mit_ai_news"
+      name: "MIT AI News"
+      url: "https://news.mit.edu/rss/topic/artificial-intelligence"
+      category: "research"
+      priority: "high"
+      description: "MIT artificial intelligence news and research"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "deepmind_blog"
+      name: "DeepMind Research"
+      url: "https://deepmind.google/discover/blog/rss.xml"
+      category: "research"
+      priority: "high"
+      description: "DeepMind research breakthroughs and insights"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "venturebeat_ai"
+      name: "VentureBeat AI"
+      url: "https://venturebeat.com/ai/feed/"
+      category: "news"
+      priority: "medium"
+      description: "AI industry news and business insights"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "the_gradient"
+      name: "The Gradient"
+      url: "https://thegradient.pub/rss/"
+      category: "analysis"
+      priority: "medium"
+      description: "AI research analysis and perspectives"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "ml_mastery"
+      name: "Machine Learning Mastery"
+      url: "https://machinelearningmastery.com/feed/"
+      category: "education"
+      priority: "medium"
+      description: "Practical machine learning tutorials"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "towards_data_science"
+      name: "Towards Data Science"
+      url: "https://towardsdatascience.com/feed"
+      category: "education"
+      priority: "medium"
+      description: "Data science and AI educational content"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "aws_ml_blog"
+      name: "AWS Machine Learning Blog"
+      url: "https://aws.amazon.com/blogs/machine-learning/feed/"
+      category: "cloud"
+      priority: "medium"
+      description: "AWS machine learning services and tutorials"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "microsoft_ai_blog"
+      name: "Microsoft AI Blog"
+      url: "https://blogs.microsoft.com/ai/feed/"
+      category: "cloud"
+      priority: "medium"
+      description: "Microsoft AI developments and Azure services"
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "anthropic_blog"
+      name: "Anthropic Research"
+      url: "https://www.anthropic.com/research"
+      category: "research"
+      priority: "high"
+      description: "Anthropic AI safety and research publications"
+      verified: true
+      last_checked: "2025-06-29"
+      requires_parsing: true
+      
+    - id: "openai_blog"
+      name: "OpenAI Blog"
+      url: "https://openai.com/blog/"
+      category: "research"
+      priority: "high"
+      description: "OpenAI research and product updates"
+      verified: true
+      last_checked: "2025-06-29"
+      requires_parsing: true
+      
+    - id: "nvidia_ai_blog"
+      name: "NVIDIA AI Blog"
+      url: "https://blogs.nvidia.com/ai/feed/"
+      category: "industry"
+      priority: "high"
+      description: "NVIDIA AI technology and research"
+      verified: true
+      last_checked: "2025-06-29"
+      
+    - id: "meta_ai_blog"
+      name: "Meta AI Blog"
+      url: "https://ai.meta.com/blog/"
+      category: "research"
+      priority: "high"
+      description: "Meta AI research and developments"
+      verified: true
+      last_checked: "2025-06-29"
+      requires_parsing: true
+      
+    - id: "ai_agents_org"
+      name: "AI Agents"
+      url: "https://www.aiagents.org/feed/"
+      category: "agents"
+      priority: "high"
+      description: "Autonomous AI agents research and applications"
+      verified: true
+      last_checked: "2025-06-29"
+      
+    - id: "langchain_blog"
+      name: "LangChain Blog"
+      url: "https://blog.langchain.dev/feed/"
+      category: "agents"
+      priority: "high"
+      description: "LangChain framework and AI agent development"
+      verified: true
+      last_checked: "2025-06-29"
+      
+    - id: "tsinghua_ai"
+      name: "清华大学人工智能研究院"
+      url: "https://air.tsinghua.edu.cn/info/1000/1.htm"
+      category: "research"
+      priority: "high"
+      description: "Tsinghua University AI research institute"
+      verified: true
+      last_checked: "2025-06-29"
+      requires_parsing: true
+      language: "zh"
+      
+    - id: "baidu_research"
+      name: "百度研究院"
+      url: "http://research.baidu.com/Blog"
+      category: "research"
+      priority: "medium"
+      description: "Baidu Research AI developments"
+      verified: true
+      last_checked: "2025-06-29"
+      requires_parsing: true
+      language: "zh"
+      
+    - id: "alibaba_damo"
+      name: "阿里巴巴达摩院"
+      url: "https://www.alibabacloud.com/blog/topic/damo-academy"
+      category: "research"
+      priority: "medium"
+      description: "Alibaba DAMO Academy AI research"
+      verified: true
+      last_checked: "2025-06-29"
+      requires_parsing: true
+      language: "zh"
+      
+    - id: "bytedance_ai"
+      name: "ByteDance AI Lab"
+      url: "https://ailab.bytedance.com/publications/"
+      category: "research"
+      priority: "medium"
+      description: "ByteDance AI Lab research publications"
+      verified: true
+      last_checked: "2025-06-29"
+      requires_parsing: true
+      
+    - id: "ai_agents_daily"
+      name: "AI Agents Daily"
+      url: "https://www.aiagentsdaily.com/feed/"
+      category: "agents"
+      priority: "medium"
+      description: "Daily updates on AI agents and automation"
+      verified: true
+      last_checked: "2025-06-29"
+      
+    - id: "multi_agent_blog"
+      name: "Multi-Agent Systems"
+      url: "https://www.multiagent.org/feed/"
+      category: "agents"
+      priority: "medium"
+      description: "Multi-agent systems research and applications"
+      verified: true
+      last_checked: "2025-06-29"
+      
+    - id: "agent_landscape"
+      name: "Agent Landscape"
+      url: "https://agentlandscape.ai/blog/feed/"
+      category: "agents"
+      priority: "medium"
+      description: "AI agent ecosystem and market analysis"
+      verified: true
+      last_checked: "2025-06-29"
+      
+  websites:
+    - id: "arxiv_ai_recent"
+      name: "ArXiv AI Latest"
+      url: "https://arxiv.org/list/cs.AI/recent"
+      category: "research"
+      priority: "high"
+      description: "Latest AI research papers on ArXiv"
+      requires_parsing: true
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "papers_with_code"
+      name: "Papers With Code Latest"
+      url: "https://paperswithcode.com/latest"
+      category: "research"
+      priority: "high"
+      description: "Latest ML papers with code implementations"
+      requires_parsing: true
+      verified: true
+      last_checked: "2024-12-29"
+      
+    - id: "huggingface_papers"
+      name: "Hugging Face Papers"
+      url: "https://huggingface.co/papers"
+      category: "research"
+      priority: "medium"
+      description: "AI/ML papers featured on Hugging Face"
+      requires_parsing: true
+      verified: true
+      last_checked: "2024-12-29"
+
+# Backup sources (lower priority but still reliable)
+backup_sources:
+  rss_feeds:
+    - id: "oreilly_ai"
+      name: "O'Reilly AI"
+      url: "https://www.oreilly.com/radar/topics/ai-ml/feed/"
+      category: "industry"
+      priority: "low"
+      
+    - id: "ai_news"
+      name: "AI News"
+      url: "https://www.artificialintelligence-news.com/feed/"
+      category: "news"
+      priority: "low"
+      
+    - id: "kdnuggets"
+      name: "KDnuggets"
+      url: "https://www.kdnuggets.com/feed"
+      category: "education"
+      priority: "low"
+
+# Source quality criteria
+quality_criteria:
+  minimum_content_length: 100
+  maximum_content_length: 10000
+  minimum_title_length: 10
+  maximum_title_length: 200
+  required_fields:
+    - title
+    - content_or_summary
+  quality_threshold: 0.6
+  
+# Crawling configuration
+crawling_config:
+  max_articles_per_feed: 15
+  max_pages_per_website: 10
+  request_timeout: 45
+  connection_timeout: 15
+  max_retries: 3
+  retry_backoff: 2.0
+  rate_limit_delay: 2.0
+  max_concurrent_requests: 5
+  
+# User agent rotation
+user_agents:
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"

@@ -1,0 +1,26 @@
+{
+  "id": "acbfcad6-e519-45b5-aa15-ebcd84eeb4ac",
+  "title": "Benchmarking Multi-Agent Architectures",
+  "content": "By Will Fu-HinthornIn this blog, we explore a few common multi-agent architectures. We discuss both the motivations and constraints of different architectures. We benchmark their performance on a variant of the Tau-bench dataset. Finally, we discuss improvements we made to our \u201csupervisor\u201d implementation that yielded a nearly",
+  "url": "https://blog.langchain.com/benchmarking-multi-agent-architectures/",
+  "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+  "category": "agent-frameworks",
+  "author": "LangChain",
+  "published_at": "2025-06-11T01:40:14",
+  "created_at": "2025-07-01T16:55:18.572647",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Benchmarking Multi-Agent Architectures",
+      "content": "By Will Fu-HinthornIn this blog, we explore a few common multi-agent architectures. We discuss both the motivations and constraints of different architectures. We benchmark their performance on a variant of the Tau-bench dataset. Finally, we discuss improvements we made to our \u201csupervisor\u201d implementation that yielded a nearly",
+      "url": "https://blog.langchain.com/benchmarking-multi-agent-architectures/",
+      "author": "LangChain",
+      "published": "Wed, 11 Jun 2025 01:40:14 GMT",
+      "category": "agent-frameworks",
+      "source_id": "30dff848-3cd4-4964-923e-5d27f167093b",
+      "extraction_method": "rss"
+    }
+  }
+}

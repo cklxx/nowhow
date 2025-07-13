@@ -1,0 +1,26 @@
+{
+  "id": "506e0dbf-051f-4aac-bc77-8d075e4b5905",
+  "title": "New methods boost reasoning in small and large language models",
+  "content": "New techniques are reimagining how LLMs reason. By combining symbolic logic, mathematical rigor, and adaptive planning, these methods enable models to tackle complex, real-world problems across a variety of fields.\nThe post New methods boost reasoning in small and large language models appeared first on Microsoft Research.",
+  "url": "https://www.microsoft.com/en-us/research/blog/new-methods-boost-reasoning-in-small-and-large-language-models/",
+  "source_id": "df4af8cb-b26e-408f-954c-d62e7abfdc9d",
+  "category": "research",
+  "author": "Li Lyna Zhang, Xian Zhang, Xueting Han, Dongdong Zhang",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572875",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "New methods boost reasoning in small and large language models",
+      "content": "New techniques are reimagining how LLMs reason. By combining symbolic logic, mathematical rigor, and adaptive planning, these methods enable models to tackle complex, real-world problems across a variety of fields.\nThe post New methods boost reasoning in small and large language models appeared first on Microsoft Research.",
+      "url": "https://www.microsoft.com/en-us/research/blog/new-methods-boost-reasoning-in-small-and-large-language-models/",
+      "author": "Li Lyna Zhang, Xian Zhang, Xueting Han, Dongdong Zhang",
+      "published": "Tue, 17 Jun 2025 16:00:00 +0000",
+      "category": "research",
+      "source_id": "df4af8cb-b26e-408f-954c-d62e7abfdc9d",
+      "extraction_method": "rss"
+    }
+  }
+}

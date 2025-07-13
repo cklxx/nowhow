@@ -1,0 +1,26 @@
+{
+  "id": "aa91ab76-56ac-454a-b1dc-584f0d28e51b",
+  "title": "Top 6 LLMs that Support Function Calling",
+  "content": "Introduction OpenAI\u2019s latest models, like GPT-o1 and GPT-4o, excel in delivering accurate, context-aware responses across diverse fields. A key factor behind the advancements in these Large Language Models (LLMs) is their enhanced utility and the significant reduction in common issues like hallucinations. Techniques like retrieval-augmented generation (RAG) enhance accuracy and reduce hallucinations by allowing models [\u2026]\nThe post Top 6 LLMs that Support Function Calling appeared first on Analytics Vidhya.",
+  "url": "https://www.analyticsvidhya.com/blog/2024/10/function-calling-llms/",
+  "source_id": "ff7da571-a62c-4440-aa8b-458fa8266f0b",
+  "category": "agent-frameworks",
+  "author": "Pankaj Singh",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572772",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Top 6 LLMs that Support Function Calling",
+      "content": "Introduction OpenAI\u2019s latest models, like GPT-o1 and GPT-4o, excel in delivering accurate, context-aware responses across diverse fields. A key factor behind the advancements in these Large Language Models (LLMs) is their enhanced utility and the significant reduction in common issues like hallucinations. Techniques like retrieval-augmented generation (RAG) enhance accuracy and reduce hallucinations by allowing models [\u2026]\nThe post Top 6 LLMs that Support Function Calling appeared first on Analytics Vidhya.",
+      "url": "https://www.analyticsvidhya.com/blog/2024/10/function-calling-llms/",
+      "author": "Pankaj Singh",
+      "published": "Sat, 05 Oct 2024 09:40:24 +0000",
+      "category": "agent-frameworks",
+      "source_id": "ff7da571-a62c-4440-aa8b-458fa8266f0b",
+      "extraction_method": "rss"
+    }
+  }
+}

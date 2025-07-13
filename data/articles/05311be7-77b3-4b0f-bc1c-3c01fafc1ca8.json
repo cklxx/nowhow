@@ -1,0 +1,26 @@
+{
+  "id": "05311be7-77b3-4b0f-bc1c-3c01fafc1ca8",
+  "title": "How CrewAI Delivers Enterprise-Level Complexity Without Compromise",
+  "content": "From my early days as an engineer I still remeber one of it's main guiding principles: KISS\u00a0(Keep it Simple Stupid), what could also be put as \"what is the minimum I get away with?\"- thinking.In the AI orchestration space, complexity is often",
+  "url": "https://blog.crewai.com/how-crewai-delivers-enterprise-level-complexity-without-compromise/",
+  "source_id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+  "category": "agent-frameworks",
+  "author": "Jo\u00e3o (Joe) Moura",
+  "published_at": "2025-03-19T18:43:19",
+  "created_at": "2025-07-01T16:55:18.572560",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "How CrewAI Delivers Enterprise-Level Complexity Without Compromise",
+      "content": "From my early days as an engineer I still remeber one of it's main guiding principles: KISS\u00a0(Keep it Simple Stupid), what could also be put as \"what is the minimum I get away with?\"- thinking.In the AI orchestration space, complexity is often",
+      "url": "https://blog.crewai.com/how-crewai-delivers-enterprise-level-complexity-without-compromise/",
+      "author": "Jo\u00e3o (Joe) Moura",
+      "published": "Wed, 19 Mar 2025 18:43:19 GMT",
+      "category": "agent-frameworks",
+      "source_id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+      "extraction_method": "rss"
+    }
+  }
+}

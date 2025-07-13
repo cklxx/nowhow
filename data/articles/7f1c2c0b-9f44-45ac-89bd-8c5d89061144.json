@@ -1,0 +1,26 @@
+{
+  "id": "7f1c2c0b-9f44-45ac-89bd-8c5d89061144",
+  "title": "NVIDIA Releases New AI Models and Developer Tools to Advance Autonomous Vehicle Ecosystem",
+  "content": "Autonomous vehicle (AV) stacks are evolving from many distinct models to a unified, end-to-end architecture that executes driving actions directly from sensor data. This transition to using larger models is drastically increasing the demand for high-quality, physically based sensor data for training, testing and validation. To help accelerate the development of next-generation AV architectures, NVIDIA\t\n\t\tRead Article",
+  "url": "https://blogs.nvidia.com/blog/autonomous-vehicle-ecosystem-ai-models-developer-tools/",
+  "source_id": "dac87bdc-5cbc-47b8-9312-2e65c7c6abfe",
+  "category": "industry",
+  "author": "Katie Washabaugh",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572347",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "NVIDIA Releases New AI Models and Developer Tools to Advance Autonomous Vehicle Ecosystem",
+      "content": "Autonomous vehicle (AV) stacks are evolving from many distinct models to a unified, end-to-end architecture that executes driving actions directly from sensor data. This transition to using larger models is drastically increasing the demand for high-quality, physically based sensor data for training, testing and validation. To help accelerate the development of next-generation AV architectures, NVIDIA\t\n\t\tRead Article",
+      "url": "https://blogs.nvidia.com/blog/autonomous-vehicle-ecosystem-ai-models-developer-tools/",
+      "author": "Katie Washabaugh",
+      "published": "Wed, 11 Jun 2025 10:55:36 +0000",
+      "category": "industry",
+      "source_id": "dac87bdc-5cbc-47b8-9312-2e65c7c6abfe",
+      "extraction_method": "rss"
+    }
+  }
+}

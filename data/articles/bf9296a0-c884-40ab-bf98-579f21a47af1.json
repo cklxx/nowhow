@@ -1,0 +1,26 @@
+{
+  "id": "bf9296a0-c884-40ab-bf98-579f21a47af1",
+  "title": "Enabling domain experts to build and deploy agentic workflows without the need to write code",
+  "content": "Day 3 of CrewAI Launch Week 01 (May 2025)CrewAI OSS provides developers with a unique combination of abstraction and flexibility that makes it easy to build multi-agent workflows that perform complex tasks autonomously.And it powers CrewAI Enterprise, a cloud-native platform that adds features and capabilities organizations need to",
+  "url": "https://blog.crewai.com/enabling-domain-experts-to-build-and-deploy-agentic-workflows-without-the-need-to-write-code/",
+  "source_id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+  "category": "agent-frameworks",
+  "author": "Shane Johnson",
+  "published_at": "2025-05-21T14:50:07",
+  "created_at": "2025-07-01T16:55:18.572471",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Enabling domain experts to build and deploy agentic workflows without the need to write code",
+      "content": "Day 3 of CrewAI Launch Week 01 (May 2025)CrewAI OSS provides developers with a unique combination of abstraction and flexibility that makes it easy to build multi-agent workflows that perform complex tasks autonomously.And it powers CrewAI Enterprise, a cloud-native platform that adds features and capabilities organizations need to",
+      "url": "https://blog.crewai.com/enabling-domain-experts-to-build-and-deploy-agentic-workflows-without-the-need-to-write-code/",
+      "author": "Shane Johnson",
+      "published": "Wed, 21 May 2025 14:50:07 GMT",
+      "category": "agent-frameworks",
+      "source_id": "457cc12f-b67b-4ce8-8099-8c3284de63ca",
+      "extraction_method": "rss"
+    }
+  }
+}

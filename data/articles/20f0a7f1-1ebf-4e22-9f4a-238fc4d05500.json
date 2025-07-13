@@ -1,0 +1,26 @@
+{
+  "id": "20f0a7f1-1ebf-4e22-9f4a-238fc4d05500",
+  "title": "Hitchhiker\u2019s Guide to RAG with ChatGPT API and LangChain",
+  "content": "Build a simple Python RAG pipeline using your local files as context\nThe post Hitchhiker\u2019s Guide to RAG with ChatGPT API and LangChain appeared first on Towards Data Science.",
+  "url": "https://towardsdatascience.com/hitchhikers-guide-to-rag-with-chatgpt-api-and-langchain/",
+  "source_id": "880e661b-24ee-46bd-83c1-911f24b3e2e1",
+  "category": "data-science",
+  "author": "Maria Mouschoutzi",
+  "published_at": null,
+  "created_at": "2025-07-01T14:50:18.708401",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "3aa5d9e2-fe9b-4fbe-b06c-e7c5c92ba129",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Hitchhiker\u2019s Guide to RAG with ChatGPT API and LangChain",
+      "content": "Build a simple Python RAG pipeline using your local files as context\nThe post Hitchhiker\u2019s Guide to RAG with ChatGPT API and LangChain appeared first on Towards Data Science.",
+      "url": "https://towardsdatascience.com/hitchhikers-guide-to-rag-with-chatgpt-api-and-langchain/",
+      "author": "Maria Mouschoutzi",
+      "published": "Thu, 26 Jun 2025 18:18:26 +0000",
+      "category": "data-science",
+      "source_id": "880e661b-24ee-46bd-83c1-911f24b3e2e1",
+      "extraction_method": "rss"
+    }
+  }
+}

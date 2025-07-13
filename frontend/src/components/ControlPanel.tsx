@@ -53,7 +53,7 @@ export default function ControlPanel({
           <div className="p-4 bg-gray-50 rounded-md">
             <h3 className="font-medium text-gray-900">工作流状态</h3>
             <p className="text-sm text-gray-600">
-              ID: {workflowStatus.workflow_id}
+              ID: {workflowStatus.id}
             </p>
             <p className="text-sm text-gray-600">
               状态: <span className={`font-medium ${
@@ -64,9 +64,9 @@ export default function ControlPanel({
             </p>
             {workflowStatus.results && (
               <div className="text-sm text-gray-600 mt-2">
-                <p>抓取项目: {workflowStatus.results.crawled_items}</p>
-                <p>处理项目: {workflowStatus.results.processed_items}</p>
-                <p>生成文章: {workflowStatus.results.articles_generated}</p>
+                <p>抓取项目: {Number((workflowStatus.results as Record<string, unknown>).crawled_items) || 0}</p>
+                <p>处理项目: {Number((workflowStatus.results as Record<string, unknown>).processed_items) || 0}</p>
+                <p>生成文章: {Number((workflowStatus.results as Record<string, unknown>).articles_generated) || 0}</p>
               </div>
             )}
           </div>

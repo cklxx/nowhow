@@ -1,0 +1,26 @@
+{
+  "id": "50ce6c18-4f2f-4b22-ab84-7f71f10e83a9",
+  "title": "Momentum-based Accelerated Algorithm for Distributed Optimization under Sector-Bound Nonlinearity",
+  "content": "arXiv:2506.22855v1 Announce Type: cross \nAbstract: Distributed optimization advances centralized machine learning methods by enabling parallel and decentralized learning processes over a network of computing nodes. This work provides an accelerated consensus-based distributed algorithm for locally non-convex optimization using the gradient-tracking technique. The proposed algorithm (i) improves the convergence rate by adding momentum towards the optimal state using the heavy-ball method, while (ii) addressing general sector-bound nonlinearities over the information-sharing network. The link nonlinearity includes any sign-preserving odd sector-bound mapping, for example, log-scale data quantization or clipping in practical applications. For admissible momentum and gradient-tracking parameters, using perturbation theory and eigen-spectrum analysis, we prove convergence even in the presence of sector-bound nonlinearity and for locally non-convex cost functions. Further, in contrast to most existing weight-stochastic algorithms, we adopt weight-balanced (WB) network design. This WB design and perturbation-based analysis allow to handle dynamic directed network of agents to address possible time-varying setups due to link failures or packet drops.",
+  "url": "https://arxiv.org/abs/2506.22855",
+  "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+  "category": "academic-papers",
+  "author": "Mohammadreza Doostmohammadian, Hamid R. Rabiee",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572155",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Momentum-based Accelerated Algorithm for Distributed Optimization under Sector-Bound Nonlinearity",
+      "content": "arXiv:2506.22855v1 Announce Type: cross \nAbstract: Distributed optimization advances centralized machine learning methods by enabling parallel and decentralized learning processes over a network of computing nodes. This work provides an accelerated consensus-based distributed algorithm for locally non-convex optimization using the gradient-tracking technique. The proposed algorithm (i) improves the convergence rate by adding momentum towards the optimal state using the heavy-ball method, while (ii) addressing general sector-bound nonlinearities over the information-sharing network. The link nonlinearity includes any sign-preserving odd sector-bound mapping, for example, log-scale data quantization or clipping in practical applications. For admissible momentum and gradient-tracking parameters, using perturbation theory and eigen-spectrum analysis, we prove convergence even in the presence of sector-bound nonlinearity and for locally non-convex cost functions. Further, in contrast to most existing weight-stochastic algorithms, we adopt weight-balanced (WB) network design. This WB design and perturbation-based analysis allow to handle dynamic directed network of agents to address possible time-varying setups due to link failures or packet drops.",
+      "url": "https://arxiv.org/abs/2506.22855",
+      "author": "Mohammadreza Doostmohammadian, Hamid R. Rabiee",
+      "published": "Tue, 01 Jul 2025 00:00:00 -0400",
+      "category": "academic-papers",
+      "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+      "extraction_method": "rss"
+    }
+  }
+}

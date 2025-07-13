@@ -1,0 +1,26 @@
+{
+  "id": "a90252d1-b32f-4c2a-8c8f-fcb4afb93a13",
+  "title": "Resilient-Native and Intelligent Next-Generation Wireless Systems: Key Enablers, Foundations, and Applications",
+  "content": "arXiv:2506.22991v1 Announce Type: cross \nAbstract: Just like power, water, and transportation systems, wireless networks are a crucial societal infrastructure. As natural and human-induced disruptions continue to grow, wireless networks must be resilient. This requires them to withstand and recover from unexpected adverse conditions, shocks, unmodeled disturbances and cascading failures. Unlike robustness and reliability, resilience is based on the understanding that disruptions will inevitably happen. Resilience, as elasticity, focuses on the ability to bounce back to favorable states, while resilience as plasticity involves agents and networks that can flexibly expand their states and hypotheses through real-time adaptation and reconfiguration. This situational awareness and active preparedness, adapting world models and counterfactually reasoning about potential system failures and the best responses, is a core aspect of resilience. This article will first disambiguate resilience from reliability and robustness, before delving into key mathematical foundations of resilience grounded in abstraction, compositionality and emergence. Subsequently, we focus our attention on a plethora of techniques and methodologies pertaining to the unique characteristics of resilience, as well as their applications through a comprehensive set of use cases. Ultimately, the goal of this paper is to establish a unified foundation for understanding, modeling, and engineering resilience in wireless communication systems, while laying a roadmap for the next-generation of resilient-native and intelligent wireless systems.",
+  "url": "https://arxiv.org/abs/2506.22991",
+  "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+  "category": "academic-papers",
+  "author": "Mehdi Bennis, Sumudu Samarakoon, Tamara Alshammari, Chathuranga Weeraddana, Zhoujun Tian, Chaouki Ben Issaid",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572216",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Resilient-Native and Intelligent Next-Generation Wireless Systems: Key Enablers, Foundations, and Applications",
+      "content": "arXiv:2506.22991v1 Announce Type: cross \nAbstract: Just like power, water, and transportation systems, wireless networks are a crucial societal infrastructure. As natural and human-induced disruptions continue to grow, wireless networks must be resilient. This requires them to withstand and recover from unexpected adverse conditions, shocks, unmodeled disturbances and cascading failures. Unlike robustness and reliability, resilience is based on the understanding that disruptions will inevitably happen. Resilience, as elasticity, focuses on the ability to bounce back to favorable states, while resilience as plasticity involves agents and networks that can flexibly expand their states and hypotheses through real-time adaptation and reconfiguration. This situational awareness and active preparedness, adapting world models and counterfactually reasoning about potential system failures and the best responses, is a core aspect of resilience. This article will first disambiguate resilience from reliability and robustness, before delving into key mathematical foundations of resilience grounded in abstraction, compositionality and emergence. Subsequently, we focus our attention on a plethora of techniques and methodologies pertaining to the unique characteristics of resilience, as well as their applications through a comprehensive set of use cases. Ultimately, the goal of this paper is to establish a unified foundation for understanding, modeling, and engineering resilience in wireless communication systems, while laying a roadmap for the next-generation of resilient-native and intelligent wireless systems.",
+      "url": "https://arxiv.org/abs/2506.22991",
+      "author": "Mehdi Bennis, Sumudu Samarakoon, Tamara Alshammari, Chathuranga Weeraddana, Zhoujun Tian, Chaouki Ben Issaid",
+      "published": "Tue, 01 Jul 2025 00:00:00 -0400",
+      "category": "academic-papers",
+      "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+      "extraction_method": "rss"
+    }
+  }
+}

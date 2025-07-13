@@ -1,0 +1,26 @@
+{
+  "id": "a3cbf6eb-a8d1-46a0-b86f-646add3fc1a8",
+  "title": "Mixture of Experts Architecture in Transformer Models",
+  "content": "This post covers three main areas: \u2022 Why Mixture of Experts is Needed in Transformers \u2022 How Mixture of Experts Works \u2022 Implementation of MoE in Transformer Models The Mixture of Experts (MoE) concept was first introduced in 1991 by <a href=\"https://www.",
+  "url": "https://machinelearningmastery.com/mixture-of-experts-architecture-in-transformer-models/",
+  "source_id": "559b8284-028e-4959-a6f8-831ae277c7aa",
+  "category": "ml-tutorials",
+  "author": "Adrian Tam",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.573256",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Mixture of Experts Architecture in Transformer Models",
+      "content": "This post covers three main areas: \u2022 Why Mixture of Experts is Needed in Transformers \u2022 How Mixture of Experts Works \u2022 Implementation of MoE in Transformer Models The Mixture of Experts (MoE) concept was first introduced in 1991 by <a href=\"https://www.",
+      "url": "https://machinelearningmastery.com/mixture-of-experts-architecture-in-transformer-models/",
+      "author": "Adrian Tam",
+      "published": "Tue, 01 Jul 2025 03:19:28 +0000",
+      "category": "ml-tutorials",
+      "source_id": "559b8284-028e-4959-a6f8-831ae277c7aa",
+      "extraction_method": "rss"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "9d54cfbe-cd58-49bb-9450-ec34ff4ec7b0",
+  "title": "What Is Retrieval-Augmented Generation, aka RAG?",
+  "content": "Editor\u2019s note: This article, originally published on Nov. 15, 2023, has been updated. To understand the latest advancements in generative AI, imagine a courtroom. Judges hear and decide cases based on their general understanding of the law. Sometimes a case \u2014 like a malpractice suit or a labor dispute \u2014 requires special expertise, so judges\t\n\t\tRead Article",
+  "url": "https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/",
+  "source_id": "dac87bdc-5cbc-47b8-9312-2e65c7c6abfe",
+  "category": "industry",
+  "author": "Rick Merritt",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572411",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "What Is Retrieval-Augmented Generation, aka RAG?",
+      "content": "Editor\u2019s note: This article, originally published on Nov. 15, 2023, has been updated. To understand the latest advancements in generative AI, imagine a courtroom. Judges hear and decide cases based on their general understanding of the law. Sometimes a case \u2014 like a malpractice suit or a labor dispute \u2014 requires special expertise, so judges\t\n\t\tRead Article",
+      "url": "https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/",
+      "author": "Rick Merritt",
+      "published": "Fri, 31 Jan 2025 23:00:25 +0000",
+      "category": "industry",
+      "source_id": "dac87bdc-5cbc-47b8-9312-2e65c7c6abfe",
+      "extraction_method": "rss"
+    }
+  }
+}

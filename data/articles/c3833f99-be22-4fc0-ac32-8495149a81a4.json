@@ -1,0 +1,26 @@
+{
+  "id": "c3833f99-be22-4fc0-ac32-8495149a81a4",
+  "title": "When AIs bargain, a less advanced agent could cost you",
+  "content": "The race to build ever larger AI models is slowing down. The industry\u2019s focus is shifting toward agents\u2014systems that can act autonomously, make decisions, and negotiate on users\u2019 behalf. But what would happen if both a customer and a seller were using an AI agent? A recent study put agent-to-agent negotiations to the test and\u2026",
+  "url": "https://www.technologyreview.com/2025/06/17/1118910/ai-price-negotiation/",
+  "source_id": "9a37f416-cb69-4b22-8e47-f7d76f72b9ea",
+  "category": "ai-news",
+  "author": "Caiwei Chen",
+  "published_at": null,
+  "created_at": "2025-07-01T14:50:18.708281",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "3aa5d9e2-fe9b-4fbe-b06c-e7c5c92ba129",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "When AIs bargain, a less advanced agent could cost you",
+      "content": "The race to build ever larger AI models is slowing down. The industry\u2019s focus is shifting toward agents\u2014systems that can act autonomously, make decisions, and negotiate on users\u2019 behalf. But what would happen if both a customer and a seller were using an AI agent? A recent study put agent-to-agent negotiations to the test and\u2026",
+      "url": "https://www.technologyreview.com/2025/06/17/1118910/ai-price-negotiation/",
+      "author": "Caiwei Chen",
+      "published": "Tue, 17 Jun 2025 08:00:00 +0000",
+      "category": "ai-news",
+      "source_id": "9a37f416-cb69-4b22-8e47-f7d76f72b9ea",
+      "extraction_method": "rss"
+    }
+  }
+}

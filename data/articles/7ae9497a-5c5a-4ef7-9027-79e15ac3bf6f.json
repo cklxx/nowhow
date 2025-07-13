@@ -1,0 +1,26 @@
+{
+  "id": "7ae9497a-5c5a-4ef7-9027-79e15ac3bf6f",
+  "title": "Linear Layers and Activation Functions in Transformer Models",
+  "content": "This post is divided into three parts; they are: \u2022 Why Linear Layers and Activations are Needed in Transformers \u2022 Typical Design of the Feed-Forward Network \u2022 Variations of the Activation Functions The attention layer is the core function of a transformer model.",
+  "url": "https://machinelearningmastery.com/linear-layers-and-activation-functions-in-transformer-models/",
+  "source_id": "559b8284-028e-4959-a6f8-831ae277c7aa",
+  "category": "ml-tutorials",
+  "author": "Adrian Tam",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.573278",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Linear Layers and Activation Functions in Transformer Models",
+      "content": "This post is divided into three parts; they are: \u2022 Why Linear Layers and Activations are Needed in Transformers \u2022 Typical Design of the Feed-Forward Network \u2022 Variations of the Activation Functions The attention layer is the core function of a transformer model.",
+      "url": "https://machinelearningmastery.com/linear-layers-and-activation-functions-in-transformer-models/",
+      "author": "Adrian Tam",
+      "published": "Mon, 30 Jun 2025 01:45:34 +0000",
+      "category": "ml-tutorials",
+      "source_id": "559b8284-028e-4959-a6f8-831ae277c7aa",
+      "extraction_method": "rss"
+    }
+  }
+}

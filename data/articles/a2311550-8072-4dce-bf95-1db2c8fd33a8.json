@@ -1,0 +1,28 @@
+{
+  "id": "a2311550-8072-4dce-bf95-1db2c8fd33a8",
+  "title": "Application of LLMs to Multi-Robot Path Planning and Task Allocation",
+  "content": "arXiv:2507.07302v1 Announce Type: new \nAbstract: Efficient exploration is a well known problem in deep reinforcement learning and this problem is exacerbated in multi-agent reinforcement learning due the intrinsic complexities of such algorithms. There are several approaches to efficiently explore an environment to learn to solve tasks by multi-agent operating in that environment, of which, the idea of expert exploration is investigated in this work. More specifically, this work investigates the application of large-language models as expert planners for efficient exploration in planning based tasks for multiple agents.",
+  "url": "https://arxiv.org/abs/2507.07302",
+  "source_id": "discovered_-3305257180926427665",
+  "category": "artificial_intelligence",
+  "author": "Ashish Kumar",
+  "published_at": null,
+  "created_at": "2025-07-11T23:37:36.749758",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "6257f28b-72a1-4e50-a95f-fcf8755dcef0",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Application of LLMs to Multi-Robot Path Planning and Task Allocation",
+      "content": "arXiv:2507.07302v1 Announce Type: new \nAbstract: Efficient exploration is a well known problem in deep reinforcement learning and this problem is exacerbated in multi-agent reinforcement learning due the intrinsic complexities of such algorithms. There are several approaches to efficiently explore an environment to learn to solve tasks by multi-agent operating in that environment, of which, the idea of expert exploration is investigated in this work. More specifically, this work investigates the application of large-language models as expert planners for efficient exploration in planning based tasks for multiple agents.",
+      "url": "https://arxiv.org/abs/2507.07302",
+      "author": "Ashish Kumar",
+      "published": "Fri, 11 Jul 2025 00:00:00 -0400",
+      "category": "\u4eba\u5de5\u667a\u80fd",
+      "source_id": "discovered_-3305257180926427665",
+      "extraction_method": "rss"
+    },
+    "topic": "\u4eba\u5de5\u667a\u80fd",
+    "topic_relevance": 0.5
+  }
+}

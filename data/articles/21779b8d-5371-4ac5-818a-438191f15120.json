@@ -1,0 +1,26 @@
+{
+  "id": "21779b8d-5371-4ac5-818a-438191f15120",
+  "title": "Cooperation as Black Box: Conceptual Fluctuation and Diagnostic Tools for Misalignment in MAS",
+  "content": "arXiv:2506.22876v1 Announce Type: new \nAbstract: Misalignment in multi-agent systems (MAS) is often treated as a technical failure; yet many such failures originate upstream, during the conceptual design phase, where semantic ambiguity and normative projection take place. This paper identifies a foundational source of interpretive misalignment in MAS: the systemic conflation of cooperation and coordination, and the moral overreading that follows. Using the Rabbit-Duck illusion, we illustrate how perspective-dependent readings of agent behavior can create epistemic instability. To address this, we introduce the Misalignment Mosaic, a diagnostic framework for diagnosing meaning-level misalignment in MAS. It comprises four components: 1. Terminological Inconsistency, 2. Concept-to-Code Decay, 3. Morality as Cooperation, and 4. Interpretive Ambiguity. The Mosaic enables researchers to examine how misalignment arises not only through policy or reward structures but also through language, framing, and design assumptions. While this paper focuses on the specific ambiguity between coordination and cooperation, the Mosaic generalizes to other overloaded concepts in MAS, such as alignment, autonomy, and trust. Rather than define cooperation once and for all, we offer a framework to diagnose meaning itself as a source of misalignment.",
+  "url": "https://arxiv.org/abs/2506.22876",
+  "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+  "category": "academic-papers",
+  "author": "Shayak Nandi, Fernanda M. Eliott",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572095",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Cooperation as Black Box: Conceptual Fluctuation and Diagnostic Tools for Misalignment in MAS",
+      "content": "arXiv:2506.22876v1 Announce Type: new \nAbstract: Misalignment in multi-agent systems (MAS) is often treated as a technical failure; yet many such failures originate upstream, during the conceptual design phase, where semantic ambiguity and normative projection take place. This paper identifies a foundational source of interpretive misalignment in MAS: the systemic conflation of cooperation and coordination, and the moral overreading that follows. Using the Rabbit-Duck illusion, we illustrate how perspective-dependent readings of agent behavior can create epistemic instability. To address this, we introduce the Misalignment Mosaic, a diagnostic framework for diagnosing meaning-level misalignment in MAS. It comprises four components: 1. Terminological Inconsistency, 2. Concept-to-Code Decay, 3. Morality as Cooperation, and 4. Interpretive Ambiguity. The Mosaic enables researchers to examine how misalignment arises not only through policy or reward structures but also through language, framing, and design assumptions. While this paper focuses on the specific ambiguity between coordination and cooperation, the Mosaic generalizes to other overloaded concepts in MAS, such as alignment, autonomy, and trust. Rather than define cooperation once and for all, we offer a framework to diagnose meaning itself as a source of misalignment.",
+      "url": "https://arxiv.org/abs/2506.22876",
+      "author": "Shayak Nandi, Fernanda M. Eliott",
+      "published": "Tue, 01 Jul 2025 00:00:00 -0400",
+      "category": "academic-papers",
+      "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+      "extraction_method": "rss"
+    }
+  }
+}

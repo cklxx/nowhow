@@ -1,0 +1,26 @@
+{
+  "id": "1ad15426-4421-4a3e-8a17-61e44269b74b",
+  "title": "A Chinese firm has just launched a constantly changing set of AI benchmarks",
+  "content": "When testing an AI model, it\u2019s hard to tell if it is reasoning or just regurgitating answers from its training data. Xbench, a new benchmark developed by the Chinese venture capital firm HSG, or HongShan Capital Group, might help to sidestep that issue. That\u2019s thanks to the way it evaluates models not only on the\u2026",
+  "url": "https://www.technologyreview.com/2025/06/23/1119190/chinese-changing-ai-benchmarks/",
+  "source_id": "9a37f416-cb69-4b22-8e47-f7d76f72b9ea",
+  "category": "ai-news",
+  "author": "Caiwei Chen",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.573064",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "A Chinese firm has just launched a constantly changing set of AI benchmarks",
+      "content": "When testing an AI model, it\u2019s hard to tell if it is reasoning or just regurgitating answers from its training data. Xbench, a new benchmark developed by the Chinese venture capital firm HSG, or HongShan Capital Group, might help to sidestep that issue. That\u2019s thanks to the way it evaluates models not only on the\u2026",
+      "url": "https://www.technologyreview.com/2025/06/23/1119190/chinese-changing-ai-benchmarks/",
+      "author": "Caiwei Chen",
+      "published": "Mon, 23 Jun 2025 15:46:28 +0000",
+      "category": "ai-news",
+      "source_id": "9a37f416-cb69-4b22-8e47-f7d76f72b9ea",
+      "extraction_method": "rss"
+    }
+  }
+}

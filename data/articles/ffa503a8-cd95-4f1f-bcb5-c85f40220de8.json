@@ -1,0 +1,26 @@
+{
+  "id": "ffa503a8-cd95-4f1f-bcb5-c85f40220de8",
+  "title": "How we\u2019re responding to The New York Times\u2019 data demands in order to protect user privacy",
+  "content": "OpenAI is fighting a court order at the demands of The New York Times and plaintiffs, which involves retention of consumer ChatGPT and API user data indefinitely. Learn how we\u2019re working to uphold user privacy, address legal requirements, and stay true to our data protection commitments.",
+  "url": "https://openai.com/index/response-to-nyt-data-demands",
+  "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+  "category": "ai-news",
+  "author": "",
+  "published_at": "2025-06-05T16:30:00",
+  "created_at": "2025-07-01T14:50:18.708662",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "3aa5d9e2-fe9b-4fbe-b06c-e7c5c92ba129",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "How we\u2019re responding to The New York Times\u2019 data demands in order to protect user privacy",
+      "content": "OpenAI is fighting a court order at the demands of The New York Times and plaintiffs, which involves retention of consumer ChatGPT and API user data indefinitely. Learn how we\u2019re working to uphold user privacy, address legal requirements, and stay true to our data protection commitments.",
+      "url": "https://openai.com/index/response-to-nyt-data-demands",
+      "author": "",
+      "published": "Thu, 05 Jun 2025 16:30:00 GMT",
+      "category": "ai-news",
+      "source_id": "c86494a5-10dc-4ab8-92eb-c7bfe8b2638e",
+      "extraction_method": "rss"
+    }
+  }
+}

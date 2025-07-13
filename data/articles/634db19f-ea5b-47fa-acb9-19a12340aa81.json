@@ -1,0 +1,26 @@
+{
+  "id": "634db19f-ea5b-47fa-acb9-19a12340aa81",
+  "title": "A Developer\u2019s Guide to Building Scalable AI: Workflows vs Agents",
+  "content": "A practical guide to choosing between AI agents and workflows for production systems, covering the hidden costs, architectural trade-offs, and decision framework that can save you thousands in deployment mistakes. Includes real-world examples and a scoring system to determine which approach fits your specific use case.\nThe post A Developer\u2019s Guide to Building Scalable AI: Workflows vs Agents appeared first on Towards Data Science.",
+  "url": "https://towardsdatascience.com/a-developers-guide-to-building-scalable-ai-workflows-vs-agents/",
+  "source_id": "880e661b-24ee-46bd-83c1-911f24b3e2e1",
+  "category": "data-science",
+  "author": "Hailey Quach",
+  "published_at": null,
+  "created_at": "2025-07-01T14:50:18.708369",
+  "quality_score": 0.9999999999999999,
+  "metadata": {
+    "workflow_id": "3aa5d9e2-fe9b-4fbe-b06c-e7c5c92ba129",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "A Developer\u2019s Guide to Building Scalable AI: Workflows vs Agents",
+      "content": "A practical guide to choosing between AI agents and workflows for production systems, covering the hidden costs, architectural trade-offs, and decision framework that can save you thousands in deployment mistakes. Includes real-world examples and a scoring system to determine which approach fits your specific use case.\nThe post A Developer\u2019s Guide to Building Scalable AI: Workflows vs Agents appeared first on Towards Data Science.",
+      "url": "https://towardsdatascience.com/a-developers-guide-to-building-scalable-ai-workflows-vs-agents/",
+      "author": "Hailey Quach",
+      "published": "Fri, 27 Jun 2025 18:38:23 +0000",
+      "category": "data-science",
+      "source_id": "880e661b-24ee-46bd-83c1-911f24b3e2e1",
+      "extraction_method": "rss"
+    }
+  }
+}

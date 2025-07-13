@@ -1,0 +1,26 @@
+{
+  "id": "3fe229bf-4c06-4ef4-a2a0-1a51d85186a2",
+  "title": "Detection of coordinated fleet vehicles in route choice urban games. Part I. Inverse fleet assignment theory",
+  "content": "arXiv:2506.22966v1 Announce Type: cross \nAbstract: Detection of collectively routing fleets of vehicles in future urban systems may become important for the management of traffic, as such routing may destabilize urban networks leading to deterioration of driving conditions. Accordingly, in this paper we discuss the question whether it is possible to determine the flow of fleet vehicles on all routes given the fleet size and behaviour as well as the combined total flow of fleet and non-fleet vehicles on every route. We prove that the answer to this Inverse Fleet Assignment Problem is 'yes' for myopic fleet strategies which are more 'selfish' than 'altruistic', and 'no' otherwise, under mild assumptions on route/link performance functions. To reach these conclusions we introduce the forward fleet assignment operator and study its properties, proving that it is invertible for 'bad' objectives of fleet controllers. We also discuss the challenges of implementing myopic fleet routing in the real world and compare it to Stackelberg and Nash routing. Finally, we show that optimal Stackelberg fleet routing could involve highly variable mixed strategies in some scenarios, which would likely cause chaos in the traffic network.",
+  "url": "https://arxiv.org/abs/2506.22966",
+  "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+  "category": "academic-papers",
+  "author": "Grzegorz Jamr\\'oz, Rafa{\\l} Kucharski",
+  "published_at": null,
+  "created_at": "2025-07-01T16:55:18.572189",
+  "quality_score": 1.0,
+  "metadata": {
+    "workflow_id": "15333d42-b6a3-4b3f-8c33-91b70037ccf5",
+    "extraction_method": "rss",
+    "original_item": {
+      "title": "Detection of coordinated fleet vehicles in route choice urban games. Part I. Inverse fleet assignment theory",
+      "content": "arXiv:2506.22966v1 Announce Type: cross \nAbstract: Detection of collectively routing fleets of vehicles in future urban systems may become important for the management of traffic, as such routing may destabilize urban networks leading to deterioration of driving conditions. Accordingly, in this paper we discuss the question whether it is possible to determine the flow of fleet vehicles on all routes given the fleet size and behaviour as well as the combined total flow of fleet and non-fleet vehicles on every route. We prove that the answer to this Inverse Fleet Assignment Problem is 'yes' for myopic fleet strategies which are more 'selfish' than 'altruistic', and 'no' otherwise, under mild assumptions on route/link performance functions. To reach these conclusions we introduce the forward fleet assignment operator and study its properties, proving that it is invertible for 'bad' objectives of fleet controllers. We also discuss the challenges of implementing myopic fleet routing in the real world and compare it to Stackelberg and Nash routing. Finally, we show that optimal Stackelberg fleet routing could involve highly variable mixed strategies in some scenarios, which would likely cause chaos in the traffic network.",
+      "url": "https://arxiv.org/abs/2506.22966",
+      "author": "Grzegorz Jamr\\'oz, Rafa{\\l} Kucharski",
+      "published": "Tue, 01 Jul 2025 00:00:00 -0400",
+      "category": "academic-papers",
+      "source_id": "d19b3ea1-303c-4c78-ad80-bcacfe71529f",
+      "extraction_method": "rss"
+    }
+  }
+}
